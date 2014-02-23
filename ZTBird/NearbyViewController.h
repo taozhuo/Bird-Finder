@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NearbyViewController.h
 //  ZTBird
 //
 //  Created by Zhuo Tao on 2/22/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface NearbyViewController : UIViewController
 
 @end

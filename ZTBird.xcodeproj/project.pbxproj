@@ -14,13 +14,16 @@
 		7CDBC7C218B9ADFE00438A77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDBC7C118B9ADFE00438A77 /* main.m */; };
 		7CDBC7C618B9ADFE00438A77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDBC7C518B9ADFE00438A77 /* AppDelegate.m */; };
 		7CDBC7C918B9ADFE00438A77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CDBC7C718B9ADFE00438A77 /* Main.storyboard */; };
-		7CDBC7CC18B9ADFE00438A77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDBC7CB18B9ADFE00438A77 /* ViewController.m */; };
 		7CDBC7CE18B9ADFE00438A77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CDBC7CD18B9ADFE00438A77 /* Images.xcassets */; };
 		7CDBC7D518B9ADFE00438A77 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDBC7D418B9ADFE00438A77 /* XCTest.framework */; };
 		7CDBC7D618B9ADFE00438A77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDBC7B518B9ADFE00438A77 /* Foundation.framework */; };
 		7CDBC7D718B9ADFE00438A77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDBC7B918B9ADFE00438A77 /* UIKit.framework */; };
 		7CDBC7DF18B9ADFE00438A77 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7CDBC7DD18B9ADFE00438A77 /* InfoPlist.strings */; };
 		7CDBC7E118B9ADFE00438A77 /* ZTBirdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDBC7E018B9ADFE00438A77 /* ZTBirdTests.m */; };
+		7CDBC7EC18B9AEB600438A77 /* NearbyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDBC7EB18B9AEB600438A77 /* NearbyViewController.m */; };
+		7CDBC7EE18B9B0AC00438A77 /* BirdResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CDBC7ED18B9B0AC00438A77 /* BirdResultCell.xib */; };
+		7CDBC7F118B9B5B400438A77 /* BirdResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDBC7F018B9B5B400438A77 /* BirdResultCell.m */; };
+		7CDBC7F818B9C87500438A77 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDBC7F718B9C87500438A77 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +48,18 @@
 		7CDBC7C418B9ADFE00438A77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7CDBC7C518B9ADFE00438A77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7CDBC7C818B9ADFE00438A77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7CDBC7CA18B9ADFE00438A77 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7CDBC7CB18B9ADFE00438A77 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7CDBC7CD18B9ADFE00438A77 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7CDBC7D318B9ADFE00438A77 /* ZTBirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZTBirdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CDBC7D418B9ADFE00438A77 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7CDBC7DC18B9ADFE00438A77 /* ZTBirdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZTBirdTests-Info.plist"; sourceTree = "<group>"; };
 		7CDBC7DE18B9ADFE00438A77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7CDBC7E018B9ADFE00438A77 /* ZTBirdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTBirdTests.m; sourceTree = "<group>"; };
+		7CDBC7EA18B9AEB600438A77 /* NearbyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearbyViewController.h; sourceTree = "<group>"; };
+		7CDBC7EB18B9AEB600438A77 /* NearbyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearbyViewController.m; sourceTree = "<group>"; };
+		7CDBC7ED18B9B0AC00438A77 /* BirdResultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BirdResultCell.xib; sourceTree = "<group>"; };
+		7CDBC7EF18B9B5B400438A77 /* BirdResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirdResultCell.h; sourceTree = "<group>"; };
+		7CDBC7F018B9B5B400438A77 /* BirdResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirdResultCell.m; sourceTree = "<group>"; };
+		7CDBC7F718B9C87500438A77 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CDBC7F818B9C87500438A77 /* MapKit.framework in Frameworks */,
 				7CDBC7B818B9ADFE00438A77 /* CoreGraphics.framework in Frameworks */,
 				7CDBC7BA18B9ADFE00438A77 /* UIKit.framework in Frameworks */,
 				7CDBC7B618B9ADFE00438A77 /* Foundation.framework in Frameworks */,
@@ -101,6 +109,7 @@
 		7CDBC7B418B9ADFE00438A77 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7CDBC7F718B9C87500438A77 /* MapKit.framework */,
 				7CDBC7B518B9ADFE00438A77 /* Foundation.framework */,
 				7CDBC7B718B9ADFE00438A77 /* CoreGraphics.framework */,
 				7CDBC7B918B9ADFE00438A77 /* UIKit.framework */,
@@ -115,10 +124,13 @@
 				7CDBC7C418B9ADFE00438A77 /* AppDelegate.h */,
 				7CDBC7C518B9ADFE00438A77 /* AppDelegate.m */,
 				7CDBC7C718B9ADFE00438A77 /* Main.storyboard */,
-				7CDBC7CA18B9ADFE00438A77 /* ViewController.h */,
-				7CDBC7CB18B9ADFE00438A77 /* ViewController.m */,
+				7CDBC7ED18B9B0AC00438A77 /* BirdResultCell.xib */,
 				7CDBC7CD18B9ADFE00438A77 /* Images.xcassets */,
+				7CDBC7EA18B9AEB600438A77 /* NearbyViewController.h */,
+				7CDBC7EB18B9AEB600438A77 /* NearbyViewController.m */,
 				7CDBC7BC18B9ADFE00438A77 /* Supporting Files */,
+				7CDBC7EF18B9B5B400438A77 /* BirdResultCell.h */,
+				7CDBC7F018B9B5B400438A77 /* BirdResultCell.m */,
 			);
 			path = ZTBird;
 			sourceTree = "<group>";
@@ -199,6 +211,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Zhuo Tao";
 				TargetAttributes = {
+					7CDBC7B118B9ADFD00438A77 = {
+						DevelopmentTeam = 2E85U37449;
+					};
 					7CDBC7D218B9ADFE00438A77 = {
 						TestTargetID = 7CDBC7B118B9ADFD00438A77;
 					};
@@ -231,6 +246,7 @@
 				7CDBC7CE18B9ADFE00438A77 /* Images.xcassets in Resources */,
 				7CDBC7C018B9ADFE00438A77 /* InfoPlist.strings in Resources */,
 				7CDBC7C918B9ADFE00438A77 /* Main.storyboard in Resources */,
+				7CDBC7EE18B9B0AC00438A77 /* BirdResultCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CDBC7CC18B9ADFE00438A77 /* ViewController.m in Sources */,
+				7CDBC7EC18B9AEB600438A77 /* NearbyViewController.m in Sources */,
 				7CDBC7C618B9ADFE00438A77 /* AppDelegate.m in Sources */,
 				7CDBC7C218B9ADFE00438A77 /* main.m in Sources */,
+				7CDBC7F118B9B5B400438A77 /* BirdResultCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,10 +393,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZTBird/ZTBird-Prefix.pch";
 				INFOPLIST_FILE = "ZTBird/ZTBird-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,10 +409,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZTBird/ZTBird-Prefix.pch";
 				INFOPLIST_FILE = "ZTBird/ZTBird-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -456,6 +479,7 @@
 				7CDBC7E618B9ADFE00438A77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CDBC7E718B9ADFE00438A77 /* Build configuration list for PBXNativeTarget "ZTBirdTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +488,7 @@
 				7CDBC7E918B9ADFE00438A77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
