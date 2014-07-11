@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
 @interface NearbyViewController : UIViewController
+
+@property (nonatomic, assign) CLLocationCoordinate2D coordinate;
 
 @end

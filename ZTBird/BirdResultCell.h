@@ -12,5 +12,12 @@
 
 @property (nonatomic, weak) IBOutlet UILabel *nameLabel;
 @property (nonatomic, weak) IBOutlet UILabel *locationLabel;
+@property (nonatomic, weak) IBOutlet UILabel *distanceLabel;
+@property (nonatomic, weak) IBOutlet UIImageView *imageView;
+@property (nonatomic, weak) IBOutlet UIActivityIndicatorView *activityView;
+@property (nonatomic, assign) BOOL  hasLoaded;
+
+
+- (void)configureForDictionary:(NSDictionary *)dict imageDict:(NSMutableDictionary *)imageDict;
 
 @end

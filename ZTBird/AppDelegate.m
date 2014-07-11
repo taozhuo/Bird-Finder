@@ -7,12 +7,25 @@
 //
 
 #import "AppDelegate.h"
+#import "BirdInfo.h"
+#import "CatalogViewController.h"
+
+@interface AppDelegate ()   //class extension
+@property (nonatomic, strong) NSManagedObjectContext *managedObjectContext;
+@property (nonatomic, strong) NSManagedObjectModel *managedObjectModel;
+@property (nonatomic, strong) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+@end
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    //[self preloadData];   //preload birds info into core data
+    UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
+    UINavigationController *naviController = (UINavigationController *)tabBarController.viewControllers[3];
+    CatalogViewController *catalogViewController = (CatalogViewController *)[naviController topViewController];
+    
+    catalogViewController.managedOjbectContext = self.managedObjectContext;
     return YES;
 }
 							
@@ -40,7 +53,90 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
+    
+
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+#pragma mark - Core Data
+- (NSManagedObjectModel *)managedObjectModel {
+    if (_managedObjectModel == nil) {
+        NSString *modelPath = [[NSBundle mainBundle] pathForResource:@"TaxonModel" ofType:@"momd"];
+        NSURL *modelUrl = [NSURL fileURLWithPath:modelPath];
+        _managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelUrl];
+    }
+    return _managedObjectModel;
+}
+
+- (NSString *)documentsDirectory {
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths lastObject];
+    NSLog(@"document directory: %@", documentsDirectory);
+    return documentsDirectory;
+}
+
+- (NSString *)dataStorePath
+{
+    return [[self documentsDirectory] stringByAppendingPathComponent:@"DataStore.sqlite"];
+}
+
+- (NSPersistentStoreCoordinator *)persistentStoreCoordinator
+{
+    if (_persistentStoreCoordinator == nil) {
+        NSURL *storeUrl = [NSURL fileURLWithPath:[self dataStorePath]];
+        
+        _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:self.managedObjectModel];
+        
+        NSError *error;
+        if (![_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType
+                                                       configuration:nil
+                                                                 URL:storeUrl
+                                                             options:nil
+                                                               error:&error]) {
+            NSLog(@"Error adding persistent store %@, %@", error, [error userInfo]);
+            abort();
+        }
+    }
+    return _persistentStoreCoordinator;
+}
+
+- (NSManagedObjectContext *)managedObjectContext
+{
+    if (_managedObjectContext == nil) {
+        NSPersistentStoreCoordinator *coordinator = self.persistentStoreCoordinator;
+        if (coordinator !=nil) {
+            _managedObjectContext = [[NSManagedObjectContext alloc] init];
+            [_managedObjectContext setPersistentStoreCoordinator:coordinator];
+        }
+    }
+    return _managedObjectContext;
+}
+
+- (void)preloadData {
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"BirdList" ofType:@"txt"];
+    NSError *error;
+    NSString *allBirds = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+    if (allBirds == nil) {
+         NSLog(@"Error reading file: %@",[error localizedDescription]);
+    }
+    NSArray *lines=[allBirds componentsSeparatedByString:@"\n"];
+    int count = [lines count];
+    NSArray *bird;
+    for(int i=0;i<count;i++) {
+        bird=[[lines objectAtIndex:i] componentsSeparatedByString:@","];
+        
+        BirdInfo *info = [NSEntityDescription insertNewObjectForEntityForName:@"BirdInfo"
+                                                       inManagedObjectContext:self.managedObjectContext];
+        info.com_name = [bird objectAtIndex:0];
+        info.sci_name = [bird objectAtIndex:1];
+        info.taxon_id = [bird objectAtIndex:2];
+        
+        NSError *error;
+        if (![self.managedObjectContext save:&error]) {
+            NSLog(@"Error: %@", error);
+            abort();
+        }
+    }
 }
 
 @end
