@@ -113,7 +113,7 @@
 }
 
 - (void)preloadData {
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"BirdList" ofType:@"txt"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"acachecklist" ofType:@"txt"];
     NSError *error;
     NSString *allBirds = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
     if (allBirds == nil) {
@@ -123,13 +123,15 @@
     int count = [lines count];
     NSArray *bird;
     for(int i=0;i<count;i++) {
-        bird=[[lines objectAtIndex:i] componentsSeparatedByString:@","];
+        bird=[[lines objectAtIndex:i] componentsSeparatedByString:@"\t"];
         
         BirdInfo *info = [NSEntityDescription insertNewObjectForEntityForName:@"BirdInfo"
                                                        inManagedObjectContext:self.managedObjectContext];
-        info.com_name = [bird objectAtIndex:0];
-        info.sci_name = [bird objectAtIndex:1];
-        info.taxon_id = [bird objectAtIndex:2];
+      
+        info.category = [bird objectAtIndex:0];
+        info.com_name = [bird objectAtIndex:1];
+        info.sci_name = [bird objectAtIndex:2];
+        //info.taxon_id = [bird objectAtIndex:2];
         
         NSError *error;
         if (![self.managedObjectContext save:&error]) {

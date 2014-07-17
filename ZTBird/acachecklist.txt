@@ -1,0 +1,981 @@
+Ducks, Geese, and Swans (Anatidae)	Black-bellied Whistling-Duck	Dendrocygna autumnalis	1
+Ducks, Geese, and Swans (Anatidae)	Fulvous Whistling-Duck	Dendrocygna bicolor	1
+Ducks, Geese, and Swans (Anatidae)	Taiga Bean-Goose	Anser fabalis	3
+Ducks, Geese, and Swans (Anatidae)	Tundra Bean-Goose	Anser serrirostris	3
+Ducks, Geese, and Swans (Anatidae)	Pink-footed Goose	Anser brachyrhynchus	4
+Ducks, Geese, and Swans (Anatidae)	Greater White-fronted Goose	Anser albifrons	1
+Ducks, Geese, and Swans (Anatidae)	Lesser White-fronted Goose	Anser erythropus	5
+Ducks, Geese, and Swans (Anatidae)	Graylag Goose	Anser anser	5
+Ducks, Geese, and Swans (Anatidae)	Emperor Goose	Chen canagica	2
+Ducks, Geese, and Swans (Anatidae)	Snow Goose	Chen caerulescens	1
+Ducks, Geese, and Swans (Anatidae)	Ross's Goose	Chen rossii	1
+Ducks, Geese, and Swans (Anatidae)	Brant	Branta bernicla	1
+Ducks, Geese, and Swans (Anatidae)	Barnacle Goose	Branta leucopsis	4
+Ducks, Geese, and Swans (Anatidae)	Cackling Goose	Branta hutchinsii	1
+Ducks, Geese, and Swans (Anatidae)	Canada Goose	Branta canadensis	1
+Ducks, Geese, and Swans (Anatidae)	Mute Swan	Cygnus olor	1
+Ducks, Geese, and Swans (Anatidae)	Trumpeter Swan	Cygnus buccinator	1
+Ducks, Geese, and Swans (Anatidae)	Tundra Swan	Cygnus columbianus	1
+Ducks, Geese, and Swans (Anatidae)	Whooper Swan	Cygnus cygnus	3
+Ducks, Geese, and Swans (Anatidae)	Muscovy Duck	Cairina moschata	2
+Ducks, Geese, and Swans (Anatidae)	Wood Duck	Aix sponsa	1
+Ducks, Geese, and Swans (Anatidae)	Gadwall	Anas strepera	1
+Ducks, Geese, and Swans (Anatidae)	Falcated Duck	Anas falcata	4
+Ducks, Geese, and Swans (Anatidae)	Eurasian Wigeon	Anas penelope	2
+Ducks, Geese, and Swans (Anatidae)	American Wigeon	Anas americana	1
+Ducks, Geese, and Swans (Anatidae)	American Black Duck	Anas rubripes	1
+Ducks, Geese, and Swans (Anatidae)	Mallard	Anas platyrhynchos	1
+Ducks, Geese, and Swans (Anatidae)	Mottled Duck	Anas fulvigula	1
+Ducks, Geese, and Swans (Anatidae)	Eastern Spot-billed Duck	Anas zonorhyncha	4
+Ducks, Geese, and Swans (Anatidae)	Blue-winged Teal	Anas discors	1
+Ducks, Geese, and Swans (Anatidae)	Cinnamon Teal	Anas cyanoptera	1
+Ducks, Geese, and Swans (Anatidae)	Northern Shoveler	Anas clypeata	1
+Ducks, Geese, and Swans (Anatidae)	White-cheeked Pintail	Anas bahamensis	4
+Ducks, Geese, and Swans (Anatidae)	Northern Pintail	Anas acuta	1
+Ducks, Geese, and Swans (Anatidae)	Garganey	Anas querquedula	4
+Ducks, Geese, and Swans (Anatidae)	Baikal Teal	Anas formosa	4
+Ducks, Geese, and Swans (Anatidae)	Green-winged Teal	Anas crecca	1
+Ducks, Geese, and Swans (Anatidae)	Canvasback	Aythya valisineria	1
+Ducks, Geese, and Swans (Anatidae)	Redhead	Aythya americana	1
+Ducks, Geese, and Swans (Anatidae)	Common Pochard	Aythya ferina	3
+Ducks, Geese, and Swans (Anatidae)	Ring-necked Duck	Aythya collaris	1
+Ducks, Geese, and Swans (Anatidae)	Tufted Duck	Aythya fuligula	3
+Ducks, Geese, and Swans (Anatidae)	Greater Scaup	Aythya marila	1
+Ducks, Geese, and Swans (Anatidae)	Lesser Scaup	Aythya affinis	1
+Ducks, Geese, and Swans (Anatidae)	Steller's Eider	Polysticta stelleri	3
+Ducks, Geese, and Swans (Anatidae)	Spectacled Eider	Somateria fischeri	3
+Ducks, Geese, and Swans (Anatidae)	King Eider	Somateria spectabilis	2
+Ducks, Geese, and Swans (Anatidae)	Common Eider	Somateria mollissima	1
+Ducks, Geese, and Swans (Anatidae)	Harlequin Duck	Histrionicus histrionicus	1
+Ducks, Geese, and Swans (Anatidae)	Labrador Duck	Camptorhynchus labradorius	6
+Ducks, Geese, and Swans (Anatidae)	Surf Scoter	Melanitta perspicillata	1
+Ducks, Geese, and Swans (Anatidae)	White-winged Scoter	Melanitta fusca	1
+Ducks, Geese, and Swans (Anatidae)	Black Scoter	Melanitta americana	1
+Ducks, Geese, and Swans (Anatidae)	Long-tailed Duck	Clangula hyemalis	1
+Ducks, Geese, and Swans (Anatidae)	Bufflehead	Bucephala albeola	1
+Ducks, Geese, and Swans (Anatidae)	Common Goldeneye	Bucephala clangula	1
+Ducks, Geese, and Swans (Anatidae)	Barrow's Goldeneye	Bucephala islandica	1
+Ducks, Geese, and Swans (Anatidae)	Smew	Mergellus albellus	3
+Ducks, Geese, and Swans (Anatidae)	Hooded Merganser	Lophodytes cucullatus	1
+Ducks, Geese, and Swans (Anatidae)	Common Merganser	Mergus merganser	1
+Ducks, Geese, and Swans (Anatidae)	Red-breasted Merganser	Mergus serrator	1
+Ducks, Geese, and Swans (Anatidae)	Masked Duck	Nomonyx dominicus	3
+Ducks, Geese, and Swans (Anatidae)	Ruddy Duck	Oxyura jamaicensis	1
+Curassows and Guans (Cracidae)	Plain Chachalaca	Ortalis vetula	2
+New World Quail (Odontophoridae)	Mountain Quail	Oreortyx pictus	1
+New World Quail (Odontophoridae)	Scaled Quail	Callipepla squamata	1
+New World Quail (Odontophoridae)	California Quail	Callipepla californica	1
+New World Quail (Odontophoridae)	Gambel's Quail	Callipepla gambelii	1
+New World Quail (Odontophoridae)	Northern Bobwhite	Colinus virginianus	1
+New World Quail (Odontophoridae)	Montezuma Quail	Cyrtonyx montezumae	2
+Partridges, Grouse, Turkeys, and Old World Quail (Phasianidae)	Chukar	Alectoris chukar	2
+Partridges, Grouse, Turkeys, and Old World Quail (Phasianidae)	Himalayan Snowcock	Tetraogallus himalayensis	2
+Partridges, Grouse, Turkeys, and Old World Quail (Phasianidae)	Gray Partridge	Perdix perdix	2
+Partridges, Grouse, Turkeys, and Old World Quail (Phasianidae)	Ring-necked Pheasant	Phasianus colchicus	1
+Partridges, Grouse, Turkeys, and Old World Quail (Phasianidae)	Ruffed Grouse	Bonasa umbellus	1
+Partridges, Grouse, Turkeys, and Old World Quail (Phasianidae)	Greater Sage-Grouse	Centrocercus urophasianus	1
+Partridges, Grouse, Turkeys, and Old World Quail (Phasianidae)	Gunnison Sage-Grouse	Centrocercus minimus	2
+Partridges, Grouse, Turkeys, and Old World Quail (Phasianidae)	Spruce Grouse	Falcipennis canadensis	2
+Partridges, Grouse, Turkeys, and Old World Quail (Phasianidae)	Willow Ptarmigan	Lagopus lagopus	1
+Partridges, Grouse, Turkeys, and Old World Quail (Phasianidae)	Rock Ptarmigan	Lagopus muta	1
+Partridges, Grouse, Turkeys, and Old World Quail (Phasianidae)	White-tailed Ptarmigan	Lagopus leucura	2
+Partridges, Grouse, Turkeys, and Old World Quail (Phasianidae)	Dusky Grouse	Dendragapus obscurus	2
+Partridges, Grouse, Turkeys, and Old World Quail (Phasianidae)	Sooty Grouse	Dendragapus fuliginosus	2
+Partridges, Grouse, Turkeys, and Old World Quail (Phasianidae)	Sharp-tailed Grouse	Tympanuchus phasianellus	2
+Partridges, Grouse, Turkeys, and Old World Quail (Phasianidae)	Greater Prairie-Chicken	Tympanuchus cupido	2
+Partridges, Grouse, Turkeys, and Old World Quail (Phasianidae)	Lesser Prairie-Chicken	Tympanuchus pallidicinctus	2
+Partridges, Grouse, Turkeys, and Old World Quail (Phasianidae)	Wild Turkey	Meleagris gallopavo	1
+Loons (Gaviidae)	Red-throated Loon	Gavia stellata	1
+Loons (Gaviidae)	Arctic Loon	Gavia arctica	2
+Loons (Gaviidae)	Pacific Loon	Gavia pacifica	1
+Loons (Gaviidae)	Common Loon	Gavia immer	1
+Loons (Gaviidae)	Yellow-billed Loon	Gavia adamsii	2
+Grebes (Podicipedidae)	Least Grebe	Tachybaptus dominicus	2
+Grebes (Podicipedidae)	Pied-billed Grebe	Podilymbus podiceps	1
+Grebes (Podicipedidae)	Horned Grebe	Podiceps auritus	1
+Grebes (Podicipedidae)	Red-necked Grebe	Podiceps grisegena	1
+Grebes (Podicipedidae)	Eared Grebe	Podiceps nigricollis	1
+Grebes (Podicipedidae)	Western Grebe	Aechmophorus occidentalis	1
+Grebes (Podicipedidae)	Clark's Grebe	Aechmophorus clarkii	1
+Flamingos (Phoenicopteridae)	American Flamingo	Phoenicopterus ruber	3
+Albatrosses (Diomedeidae)	Yellow-nosed Albatross	Thalassarche chlororhynchos	4
+Albatrosses (Diomedeidae)	Shy Albatross	Thalassarche cauta	4
+Albatrosses (Diomedeidae)	Black-browed Albatross	Thalassarche melanophris	5
+Albatrosses (Diomedeidae)	Light-mantled Albatross	Phoebetria palpebrata	5
+Albatrosses (Diomedeidae)	Wandering Albatross	Diomedea exulans	5
+Albatrosses (Diomedeidae)	Laysan Albatross	Phoebastria immutabilis	2
+Albatrosses (Diomedeidae)	Black-footed Albatross	Phoebastria nigripes	1
+Albatrosses (Diomedeidae)	Short-tailed Albatross	Phoebastria albatrus	3
+Shearwaters and Petrels (Procellariidae)	Northern Fulmar	Fulmarus glacialis	1
+Shearwaters and Petrels (Procellariidae)	Great-winged Petrel	Pterodroma macroptera	5
+Shearwaters and Petrels (Procellariidae)	Providence Petrel	Pterodroma solandri	4
+Shearwaters and Petrels (Procellariidae)	Herald Petrel	Pterodroma arminjoniana	3
+Shearwaters and Petrels (Procellariidae)	Murphy's Petrel	Pterodroma ultima	3
+Shearwaters and Petrels (Procellariidae)	Mottled Petrel	Pterodroma inexpectata	2
+Shearwaters and Petrels (Procellariidae)	Bermuda Petrel	Pterodroma cahow	3
+Shearwaters and Petrels (Procellariidae)	Black-capped Petrel	Pterodroma hasitata	2
+Shearwaters and Petrels (Procellariidae)	Hawaiian Petrel	Pterodroma sandwichensis	3
+Shearwaters and Petrels (Procellariidae)	Fea's Petrel	Pterodroma feae	3
+Shearwaters and Petrels (Procellariidae)	Cook's Petrel	Pterodroma cookii	3
+Shearwaters and Petrels (Procellariidae)	Stejneger's Petrel	Pterodroma longirostris	4
+Shearwaters and Petrels (Procellariidae)	Bulwer's Petrel	Bulweria bulwerii	5
+Shearwaters and Petrels (Procellariidae)	White-chinned Petrel	Procellaria aequinoctialis	5
+Shearwaters and Petrels (Procellariidae)	Parkinson's Petrel	Procellaria parkinsoni	5
+Shearwaters and Petrels (Procellariidae)	Streaked Shearwater	Calonectris leucomelas	4
+Shearwaters and Petrels (Procellariidae)	Cory's Shearwater	Calonectris diomedea	1
+Shearwaters and Petrels (Procellariidae)	Cape Verde Shearwater	Calonectris edwardsii	5
+Shearwaters and Petrels (Procellariidae)	Pink-footed Shearwater	Puffinus creatopus	1
+Shearwaters and Petrels (Procellariidae)	Flesh-footed Shearwater	Puffinus carneipes	3
+Shearwaters and Petrels (Procellariidae)	Great Shearwater	Puffinus gravis	1
+Shearwaters and Petrels (Procellariidae)	Wedge-tailed Shearwater	Puffinus pacificus	4
+Shearwaters and Petrels (Procellariidae)	Buller's Shearwater	Puffinus bulleri	2
+Shearwaters and Petrels (Procellariidae)	Sooty Shearwater	Puffinus griseus	1
+Shearwaters and Petrels (Procellariidae)	Short-tailed Shearwater	Puffinus tenuirostris	2
+Shearwaters and Petrels (Procellariidae)	Manx Shearwater	Puffinus puffinus	2
+Shearwaters and Petrels (Procellariidae)	Townsend's Shearwater	Puffinus auricularis	5
+Shearwaters and Petrels (Procellariidae)	Black-vented Shearwater	Puffinus opisthomelas	2
+Shearwaters and Petrels (Procellariidae)	Audubon's Shearwater	Puffinus lherminieri	1
+Shearwaters and Petrels (Procellariidae)	Barolo Shearwater	Puffinus assimilis	5
+Storm-Petrels (Hydrobatidae)	Wilson's Storm-Petrel	Oceanites oceanicus	1
+Storm-Petrels (Hydrobatidae)	White-faced Storm-Petrel	Pelagodroma marina	3
+Storm-Petrels (Hydrobatidae)	European Storm-Petrel	Hydrobates pelagicus	4
+Storm-Petrels (Hydrobatidae)	Black-bellied Storm-Petrel	Fregetta tropica	5
+Storm-Petrels (Hydrobatidae)	Fork-tailed Storm-Petrel	Oceanodroma furcata	2
+Storm-Petrels (Hydrobatidae)	Ringed Storm-Petrel	Oceanodroma hornbyi	5
+Storm-Petrels (Hydrobatidae)	Swinhoe's Storm-Petrel	Oceanodroma monorhis	5
+Storm-Petrels (Hydrobatidae)	Leach's Storm-Petrel	Oceanodroma leucorhoa	1
+Storm-Petrels (Hydrobatidae)	Ashy Storm-Petrel	Oceanodroma homochroa	2
+Storm-Petrels (Hydrobatidae)	Band-rumped Storm-Petrel	Oceanodroma castro	2
+Storm-Petrels (Hydrobatidae)	Wedge-rumped Storm-Petrel	Oceanodroma tethys	4
+Storm-Petrels (Hydrobatidae)	Black Storm-Petrel	Oceanodroma melania	2
+Storm-Petrels (Hydrobatidae)	Tristram's Storm-Petrel	Oceanodroma tristrami	5
+Storm-Petrels (Hydrobatidae)	Least Storm-Petrel	Oceanodroma microsoma	3
+Tropicbirds (Phaethontidae)	White-tailed Tropicbird	Phaethon lepturus	3
+Tropicbirds (Phaethontidae)	Red-billed Tropicbird	Phaethon aethereus	3
+Tropicbirds (Phaethontidae)	Red-tailed Tropicbird	Phaethon rubricauda	4
+Storks (Ciconiidae)	Jabiru	Jabiru mycteria	4
+Storks (Ciconiidae)	Wood Stork	Mycteria americana	1
+Frigatebirds (Fregatidae)	Magnificent Frigatebird	Fregata magnificens	1
+Frigatebirds (Fregatidae)	Great Frigatebird	Fregata minor	5
+Frigatebirds (Fregatidae)	Lesser Frigatebird	Fregata ariel	5
+Boobies and Gannets (Sulidae)	Masked Booby	Sula dactylatra	3
+Boobies and Gannets (Sulidae)	Blue-footed Booby	Sula nebouxii	4
+Boobies and Gannets (Sulidae)	Brown Booby	Sula leucogaster	3
+Boobies and Gannets (Sulidae)	Red-footed Booby	Sula sula	4
+Boobies and Gannets (Sulidae)	Northern Gannet	Morus bassanus	1
+Cormorants (Phalacrocoracidae)	Brandt's Cormorant	Phalacrocorax penicillatus	1
+Cormorants (Phalacrocoracidae)	Neotropic Cormorant	Phalacrocorax brasilianus	1
+Cormorants (Phalacrocoracidae)	Double-crested Cormorant	Phalacrocorax auritus	1
+Cormorants (Phalacrocoracidae)	Great Cormorant	Phalacrocorax carbo	1
+Cormorants (Phalacrocoracidae)	Red-faced Cormorant	Phalacrocorax urile	2
+Cormorants (Phalacrocoracidae)	Pelagic Cormorant	Phalacrocorax pelagicus	1
+Darters (Anhingidae)	Anhinga	Anhinga anhinga	1
+Pelicans (Pelecanidae)	American White Pelican	Pelecanus erythrorhynchos	1
+Pelicans (Pelecanidae)	Brown Pelican	Pelecanus occidentalis	1
+Bitterns, Herons, and Allies (Ardeidae)	American Bittern	Botaurus lentiginosus	1
+Bitterns, Herons, and Allies (Ardeidae)	Yellow Bittern	Ixobrychus sinensis	5
+Bitterns, Herons, and Allies (Ardeidae)	Least Bittern	Ixobrychus exilis	1
+Bitterns, Herons, and Allies (Ardeidae)	Bare-throated Tiger-Heron	Tigrisoma mexicanum	5
+Bitterns, Herons, and Allies (Ardeidae)	Great Blue Heron	Ardea herodias	1
+Bitterns, Herons, and Allies (Ardeidae)	Gray Heron	Ardea cinerea	5
+Bitterns, Herons, and Allies (Ardeidae)	Great Egret	Ardea alba	1
+Bitterns, Herons, and Allies (Ardeidae)	Intermediate Egret	Mesophoyx intermedia	5
+Bitterns, Herons, and Allies (Ardeidae)	Chinese Egret	Egretta eulophotes	5
+Bitterns, Herons, and Allies (Ardeidae)	Little Egret	Egretta garzetta	4
+Bitterns, Herons, and Allies (Ardeidae)	Western Reef-Heron	Egretta gularis	5
+Bitterns, Herons, and Allies (Ardeidae)	Snowy Egret	Egretta thula	1
+Bitterns, Herons, and Allies (Ardeidae)	Little Blue Heron	Egretta caerulea	1
+Bitterns, Herons, and Allies (Ardeidae)	Tricolored Heron	Egretta tricolor	1
+Bitterns, Herons, and Allies (Ardeidae)	Reddish Egret	Egretta rufescens	1
+Bitterns, Herons, and Allies (Ardeidae)	Cattle Egret	Bubulcus ibis	1
+Bitterns, Herons, and Allies (Ardeidae)	Chinese Pond-Heron	Ardeola bacchus	5
+Bitterns, Herons, and Allies (Ardeidae)	Green Heron	Butorides virescens	1
+Bitterns, Herons, and Allies (Ardeidae)	Black-crowned Night-Heron	Nycticorax nycticorax	1
+Bitterns, Herons, and Allies (Ardeidae)	Yellow-crowned Night-Heron	Nyctanassa violacea	1
+Ibises and Spoonbills (Threskiornithidae)	White Ibis	Eudocimus albus	1
+Ibises and Spoonbills (Threskiornithidae)	Scarlet Ibis	Eudocimus ruber	5
+Ibises and Spoonbills (Threskiornithidae)	Glossy Ibis	Plegadis falcinellus	1
+Ibises and Spoonbills (Threskiornithidae)	White-faced Ibis	Plegadis chihi	1
+Ibises and Spoonbills (Threskiornithidae)	Roseate Spoonbill	Platalea ajaja	1
+New World Vultures (Cathartidae)	Black Vulture	Coragyps atratus	1
+New World Vultures (Cathartidae)	Turkey Vulture	Cathartes aura	1
+New World Vultures (Cathartidae)	California Condor	Gymnogyps californianus	6
+Ospreys (Pandionidae)	Osprey	Pandion haliaetus	1
+Hawks, Kites, Eagles, and Allies (Accipitridae)	Hook-billed Kite	Chondrohierax uncinatus	3
+Hawks, Kites, Eagles, and Allies (Accipitridae)	Swallow-tailed Kite	Elanoides forficatus	1
+Hawks, Kites, Eagles, and Allies (Accipitridae)	White-tailed Kite	Elanus leucurus	1
+Hawks, Kites, Eagles, and Allies (Accipitridae)	Snail Kite	Rostrhamus sociabilis	2
+Hawks, Kites, Eagles, and Allies (Accipitridae)	Double-toothed Kite	Harpagus bidentatus	5
+Hawks, Kites, Eagles, and Allies (Accipitridae)	Mississippi Kite	Ictinia mississippiensis	1
+Hawks, Kites, Eagles, and Allies (Accipitridae)	Bald Eagle	Haliaeetus leucocephalus	1
+Hawks, Kites, Eagles, and Allies (Accipitridae)	White-tailed Eagle	Haliaeetus albicilla	4
+Hawks, Kites, Eagles, and Allies (Accipitridae)	Steller's Sea-Eagle	Haliaeetus pelagicus	4
+Hawks, Kites, Eagles, and Allies (Accipitridae)	Northern Harrier	Circus cyaneus	1
+Hawks, Kites, Eagles, and Allies (Accipitridae)	Sharp-shinned Hawk	Accipiter striatus	1
+Hawks, Kites, Eagles, and Allies (Accipitridae)	Cooper's Hawk	Accipiter cooperii	1
+Hawks, Kites, Eagles, and Allies (Accipitridae)	Northern Goshawk	Accipiter gentilis	1
+Hawks, Kites, Eagles, and Allies (Accipitridae)	Crane Hawk	Geranospiza caerulescens	5
+Hawks, Kites, Eagles, and Allies (Accipitridae)	Common Black-Hawk	Buteogallus anthracinus	2
+Hawks, Kites, Eagles, and Allies (Accipitridae)	Harris's Hawk	Parabuteo unicinctus	1
+Hawks, Kites, Eagles, and Allies (Accipitridae)	Roadside Hawk	Buteo magnirostris	4
+Hawks, Kites, Eagles, and Allies (Accipitridae)	Red-shouldered Hawk	Buteo lineatus	1
+Hawks, Kites, Eagles, and Allies (Accipitridae)	Broad-winged Hawk	Buteo platypterus	1
+Hawks, Kites, Eagles, and Allies (Accipitridae)	Gray Hawk	Buteo plagiatus	2
+Hawks, Kites, Eagles, and Allies (Accipitridae)	Short-tailed Hawk	Buteo brachyurus	2
+Hawks, Kites, Eagles, and Allies (Accipitridae)	Swainson's Hawk	Buteo swainsoni	1
+Hawks, Kites, Eagles, and Allies (Accipitridae)	White-tailed Hawk	Buteo albicaudatus	2
+Hawks, Kites, Eagles, and Allies (Accipitridae)	Zone-tailed Hawk	Buteo albonotatus	2
+Hawks, Kites, Eagles, and Allies (Accipitridae)	Red-tailed Hawk	Buteo jamaicensis	1
+Hawks, Kites, Eagles, and Allies (Accipitridae)	Ferruginous Hawk	Buteo regalis	1
+Hawks, Kites, Eagles, and Allies (Accipitridae)	Rough-legged Hawk	Buteo lagopus	1
+Hawks, Kites, Eagles, and Allies (Accipitridae)	Golden Eagle	Aquila chrysaetos	1
+Rails, Gallinules, and Coots (Rallidae)	Yellow Rail	Coturnicops noveboracensis	2
+Rails, Gallinules, and Coots (Rallidae)	Black Rail	Laterallus jamaicensis	2
+Rails, Gallinules, and Coots (Rallidae)	Corn Crake	Crex crex	4
+Rails, Gallinules, and Coots (Rallidae)	Clapper Rail	Rallus longirostris	1
+Rails, Gallinules, and Coots (Rallidae)	King Rail	Rallus elegans	1
+Rails, Gallinules, and Coots (Rallidae)	Virginia Rail	Rallus limicola	1
+Rails, Gallinules, and Coots (Rallidae)	Sora	Porzana carolina	1
+Rails, Gallinules, and Coots (Rallidae)	Paint-billed Crake	Neocrex erythrops	5
+Rails, Gallinules, and Coots (Rallidae)	Spotted Rail	Pardirallus maculatus	5
+Rails, Gallinules, and Coots (Rallidae)	Purple Swamphen	Porphyrio porphyrio	2
+Rails, Gallinules, and Coots (Rallidae)	Purple Gallinule	Porphyrio martinicus	1
+Rails, Gallinules, and Coots (Rallidae)	Common Gallinule	Gallinula galeata	1
+Rails, Gallinules, and Coots (Rallidae)	Common Moorhen	Gallinula chloropus	5
+Rails, Gallinules, and Coots (Rallidae)	Eurasian Coot	Fulica atra	5
+Rails, Gallinules, and Coots (Rallidae)	American Coot	Fulica americana	1
+Sungrebes (Heliornithidae)	Sungrebe	Heliornis fulica	5
+Limpkins (Aramidae)	Limpkin	Aramus guarauna	2
+Cranes (Gruidae)	Sandhill Crane	Grus canadensis	1
+Cranes (Gruidae)	Common Crane	Grus grus	4
+Cranes (Gruidae)	Whooping Crane	Grus americana	2
+Thick-knees (Burhinidae)	Double-striped Thick-knee	Burhinus bistriatus	5
+Stilts and Avocets (Recurvirostridae)	Black-winged Stilt	Himantopus himantopus	5
+Stilts and Avocets (Recurvirostridae)	Black-necked Stilt	Himantopus mexicanus	1
+Stilts and Avocets (Recurvirostridae)	American Avocet	Recurvirostra americana	1
+Oystercatchers (Haematopodidae)	Eurasian Oystercatcher	Haematopus ostralegus	5
+Oystercatchers (Haematopodidae)	American Oystercatcher	Haematopus palliatus	1
+Oystercatchers (Haematopodidae)	Black Oystercatcher	Haematopus bachmani	1
+Lapwings and Plovers (Charadriidae)	Northern Lapwing	Vanellus vanellus	4
+Lapwings and Plovers (Charadriidae)	Black-bellied Plover	Pluvialis squatarola	1
+Lapwings and Plovers (Charadriidae)	European Golden-Plover	Pluvialis apricaria	4
+Lapwings and Plovers (Charadriidae)	American Golden-Plover	Pluvialis dominica	1
+Lapwings and Plovers (Charadriidae)	Pacific Golden-Plover	Pluvialis fulva	2
+Lapwings and Plovers (Charadriidae)	Lesser Sand-Plover	Charadrius mongolus	3
+Lapwings and Plovers (Charadriidae)	Greater Sand-Plover	Charadrius leschenaultii	5
+Lapwings and Plovers (Charadriidae)	Collared Plover	Charadrius collaris	5
+Lapwings and Plovers (Charadriidae)	Snowy Plover	Charadrius nivosus	1
+Lapwings and Plovers (Charadriidae)	Wilson's Plover	Charadrius wilsonia	1
+Lapwings and Plovers (Charadriidae)	Common Ringed Plover	Charadrius hiaticula	2
+Lapwings and Plovers (Charadriidae)	Semipalmated Plover	Charadrius semipalmatus	1
+Lapwings and Plovers (Charadriidae)	Piping Plover	Charadrius melodus	2
+Lapwings and Plovers (Charadriidae)	Little Ringed Plover	Charadrius dubius	5
+Lapwings and Plovers (Charadriidae)	Killdeer	Charadrius vociferus	1
+Lapwings and Plovers (Charadriidae)	Mountain Plover	Charadrius montanus	2
+Lapwings and Plovers (Charadriidae)	Eurasian Dotterel	Charadrius morinellus	4
+Jacanas (Jacanidae)	Northern Jacana	Jacana spinosa	4
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Terek Sandpiper	Xenus cinereus	3
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Common Sandpiper	Actitis hypoleucos	3
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Spotted Sandpiper	Actitis macularius	1
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Green Sandpiper	Tringa ochropus	4
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Solitary Sandpiper	Tringa solitaria	1
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Gray-tailed Tattler	Tringa brevipes	3
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Wandering Tattler	Tringa incana	1
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Spotted Redshank	Tringa erythropus	4
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Greater Yellowlegs	Tringa melanoleuca	1
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Common Greenshank	Tringa nebularia	3
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Willet	Tringa semipalmata	1
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Lesser Yellowlegs	Tringa flavipes	1
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Marsh Sandpiper	Tringa stagnatilis	5
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Wood Sandpiper	Tringa glareola	2
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Common Redshank	Tringa totanus	5
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Upland Sandpiper	Bartramia longicauda	1
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Little Curlew	Numenius minutus	5
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Eskimo Curlew	Numenius borealis	6
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Whimbrel	Numenius phaeopus	1
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Bristle-thighed Curlew	Numenius tahitiensis	2
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Far Eastern Curlew	Numenius madagascariensis	4
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Slender-billed Curlew	Numenius tenuirostris	6
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Eurasian Curlew	Numenius arquata	4
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Long-billed Curlew	Numenius americanus	1
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Black-tailed Godwit	Limosa limosa	3
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Hudsonian Godwit	Limosa haemastica	1
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Bar-tailed Godwit	Limosa lapponica	2
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Marbled Godwit	Limosa fedoa	1
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Ruddy Turnstone	Arenaria interpres	1
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Black Turnstone	Arenaria melanocephala	1
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Great Knot	Calidris tenuirostris	4
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Red Knot	Calidris canutus	1
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Surfbird	Calidris virgata	1
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Ruff	Calidris pugnax	3
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Broad-billed Sandpiper	Calidris falcinellus	4
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Sharp-tailed Sandpiper	Calidris acuminata	3
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Stilt Sandpiper	Calidris himantopus	1
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Curlew Sandpiper	Calidris ferruginea	3
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Temminck's Stint	Calidris temminckii	3
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Long-toed Stint	Calidris subminuta	3
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Spoon-billed Sandpiper	Calidris pygmeus	4
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Red-necked Stint	Calidris ruficollis	3
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Sanderling	Calidris alba	1
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Dunlin	Calidris alpina	1
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Rock Sandpiper	Calidris ptilocnemis	2
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Purple Sandpiper	Calidris maritima	1
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Baird's Sandpiper	Calidris bairdii	1
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Little Stint	Calidris minuta	4
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Least Sandpiper	Calidris minutilla	1
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	White-rumped Sandpiper	Calidris fuscicollis	1
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Buff-breasted Sandpiper	Calidris subruficollis	1
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Pectoral Sandpiper	Calidris melanotos	1
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Semipalmated Sandpiper	Calidris pusilla	1
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Western Sandpiper	Calidris mauri	1
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Short-billed Dowitcher	Limnodromus griseus	1
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Long-billed Dowitcher	Limnodromus scolopaceus	1
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Jack Snipe	Lymnocryptes minimus	4
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Solitary Snipe	Gallinago solitaria	5
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Wilson's Snipe	Gallinago delicata	1
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Common Snipe	Gallinago gallinago	3
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Pin-tailed Snipe	Gallinago stenura	5
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Eurasian Woodcock	Scolopax rusticola	5
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	American Woodcock	Scolopax minor	1
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Wilson's Phalarope	Phalaropus tricolor	1
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Red-necked Phalarope	Phalaropus lobatus	1
+Sandpipers, Phalaropes, and Allies (Scolopacidae)	Red Phalarope	Phalaropus fulicarius	1
+Pratincoles (Glareolidae)	Oriental Pratincole	Glareola maldivarum	5
+Skuas and Jaegers (Stercorariidae)	Great Skua	Stercorarius skua	3
+Skuas and Jaegers (Stercorariidae)	South Polar Skua	Stercorarius maccormicki	2
+Skuas and Jaegers (Stercorariidae)	Pomarine Jaeger	Stercorarius pomarinus	1
+Skuas and Jaegers (Stercorariidae)	Parasitic Jaeger	Stercorarius parasiticus	1
+Skuas and Jaegers (Stercorariidae)	Long-tailed Jaeger	Stercorarius longicaudus	1
+Auks, Murres, and Puffins (Alcidae)	Dovekie	Alle alle	2
+Auks, Murres, and Puffins (Alcidae)	Common Murre	Uria aalge	1
+Auks, Murres, and Puffins (Alcidae)	Thick-billed Murre	Uria lomvia	1
+Auks, Murres, and Puffins (Alcidae)	Razorbill	Alca torda	1
+Auks, Murres, and Puffins (Alcidae)	Great Auk	Pinguinus impennis	6
+Auks, Murres, and Puffins (Alcidae)	Black Guillemot	Cepphus grylle	1
+Auks, Murres, and Puffins (Alcidae)	Pigeon Guillemot	Cepphus columba	1
+Auks, Murres, and Puffins (Alcidae)	Long-billed Murrelet	Brachyramphus perdix	3
+Auks, Murres, and Puffins (Alcidae)	Marbled Murrelet	Brachyramphus marmoratus	1
+Auks, Murres, and Puffins (Alcidae)	Kittlitz's Murrelet	Brachyramphus brevirostris	2
+Auks, Murres, and Puffins (Alcidae)	Scripps's Murrelet	Synthliboramphus scrippsi	2
+Auks, Murres, and Puffins (Alcidae)	Guadalupe Murrelet	Synthliboramphus hypoleucus	3
+Auks, Murres, and Puffins (Alcidae)	Craveri's Murrelet	Synthliboramphus craveri	3
+Auks, Murres, and Puffins (Alcidae)	Ancient Murrelet	Synthliboramphus antiquus	2
+Auks, Murres, and Puffins (Alcidae)	Cassin's Auklet	Ptychoramphus aleuticus	1
+Auks, Murres, and Puffins (Alcidae)	Parakeet Auklet	Aethia psittacula	2
+Auks, Murres, and Puffins (Alcidae)	Least Auklet	Aethia pusilla	2
+Auks, Murres, and Puffins (Alcidae)	Whiskered Auklet	Aethia pygmaea	2
+Auks, Murres, and Puffins (Alcidae)	Crested Auklet	Aethia cristatella	2
+Auks, Murres, and Puffins (Alcidae)	Rhinoceros Auklet	Cerorhinca monocerata	1
+Auks, Murres, and Puffins (Alcidae)	Atlantic Puffin	Fratercula arctica	1
+Auks, Murres, and Puffins (Alcidae)	Horned Puffin	Fratercula corniculata	1
+Auks, Murres, and Puffins (Alcidae)	Tufted Puffin	Fratercula cirrhata	1
+Gulls, Terns, and Skimmers (Laridae)	Swallow-tailed Gull	Creagrus furcatus	5
+Gulls, Terns, and Skimmers (Laridae)	Black-legged Kittiwake	Rissa tridactyla	1
+Gulls, Terns, and Skimmers (Laridae)	Red-legged Kittiwake	Rissa brevirostris	2
+Gulls, Terns, and Skimmers (Laridae)	Ivory Gull	Pagophila eburnea	3
+Gulls, Terns, and Skimmers (Laridae)	Sabine's Gull	Xema sabini	1
+Gulls, Terns, and Skimmers (Laridae)	Bonaparte's Gull	Chroicocephalus philadelphia	1
+Gulls, Terns, and Skimmers (Laridae)	Gray-hooded Gull	Chroicocephalus cirrocephalus	5
+Gulls, Terns, and Skimmers (Laridae)	Black-headed Gull	Chroicocephalus ridibundus	3
+Gulls, Terns, and Skimmers (Laridae)	Little Gull	Hydrocoloeus minutus	3
+Gulls, Terns, and Skimmers (Laridae)	Ross's Gull	Rhodostethia rosea	3
+Gulls, Terns, and Skimmers (Laridae)	Laughing Gull	Leucophaeus atricilla	1
+Gulls, Terns, and Skimmers (Laridae)	Franklin's Gull	Leucophaeus pipixcan	1
+Gulls, Terns, and Skimmers (Laridae)	Belcher's Gull	Larus belcheri	5
+Gulls, Terns, and Skimmers (Laridae)	Black-tailed Gull	Larus crassirostris	4
+Gulls, Terns, and Skimmers (Laridae)	Heermann's Gull	Larus heermanni	1
+Gulls, Terns, and Skimmers (Laridae)	Mew Gull	Larus canus	1
+Gulls, Terns, and Skimmers (Laridae)	Ring-billed Gull	Larus delawarensis	1
+Gulls, Terns, and Skimmers (Laridae)	Western Gull	Larus occidentalis	1
+Gulls, Terns, and Skimmers (Laridae)	Yellow-footed Gull	Larus livens	2
+Gulls, Terns, and Skimmers (Laridae)	California Gull	Larus californicus	1
+Gulls, Terns, and Skimmers (Laridae)	Herring Gull	Larus argentatus	1
+Gulls, Terns, and Skimmers (Laridae)	Yellow-legged Gull	Larus michahellis	4
+Gulls, Terns, and Skimmers (Laridae)	Thayer's Gull	Larus thayeri	2
+Gulls, Terns, and Skimmers (Laridae)	Iceland Gull	Larus glaucoides	2
+Gulls, Terns, and Skimmers (Laridae)	Lesser Black-backed Gull	Larus fuscus	2
+Gulls, Terns, and Skimmers (Laridae)	Slaty-backed Gull	Larus schistisagus	3
+Gulls, Terns, and Skimmers (Laridae)	Glaucous-winged Gull	Larus glaucescens	1
+Gulls, Terns, and Skimmers (Laridae)	Glaucous Gull	Larus hyperboreus	1
+Gulls, Terns, and Skimmers (Laridae)	Great Black-backed Gull	Larus marinus	1
+Gulls, Terns, and Skimmers (Laridae)	Kelp Gull	Larus dominicanus	4
+Gulls, Terns, and Skimmers (Laridae)	Brown Noddy	Anous stolidus	2
+Gulls, Terns, and Skimmers (Laridae)	Black Noddy	Anous minutus	3
+Gulls, Terns, and Skimmers (Laridae)	Sooty Tern	Onychoprion fuscatus	2
+Gulls, Terns, and Skimmers (Laridae)	Bridled Tern	Onychoprion anaethetus	2
+Gulls, Terns, and Skimmers (Laridae)	Aleutian Tern	Onychoprion aleuticus	2
+Gulls, Terns, and Skimmers (Laridae)	Least Tern	Sternula antillarum	1
+Gulls, Terns, and Skimmers (Laridae)	Large-billed Tern	Phaetusa simplex	5
+Gulls, Terns, and Skimmers (Laridae)	Gull-billed Tern	Gelochelidon nilotica	1
+Gulls, Terns, and Skimmers (Laridae)	Caspian Tern	Hydroprogne caspia	1
+Gulls, Terns, and Skimmers (Laridae)	Black Tern	Chlidonias niger	1
+Gulls, Terns, and Skimmers (Laridae)	White-winged Tern	Chlidonias leucopterus	4
+Gulls, Terns, and Skimmers (Laridae)	Whiskered Tern	Chlidonias hybrida	5
+Gulls, Terns, and Skimmers (Laridae)	Roseate Tern	Sterna dougallii	2
+Gulls, Terns, and Skimmers (Laridae)	Common Tern	Sterna hirundo	1
+Gulls, Terns, and Skimmers (Laridae)	Arctic Tern	Sterna paradisaea	1
+Gulls, Terns, and Skimmers (Laridae)	Forster's Tern	Sterna forsteri	1
+Gulls, Terns, and Skimmers (Laridae)	Royal Tern	Thalasseus maximus	1
+Gulls, Terns, and Skimmers (Laridae)	Sandwich Tern	Thalasseus sandvicensis	1
+Gulls, Terns, and Skimmers (Laridae)	Elegant Tern	Thalasseus elegans	1
+Gulls, Terns, and Skimmers (Laridae)	Black Skimmer	Rynchops niger	1
+Pigeons and Doves (Columbidae)	Rock Pigeon	Columba livia	1
+Pigeons and Doves (Columbidae)	Scaly-naped Pigeon	Patagioenas squamosa	5
+Pigeons and Doves (Columbidae)	White-crowned Pigeon	Patagioenas leucocephala	2
+Pigeons and Doves (Columbidae)	Red-billed Pigeon	Patagioenas flavirostris	2
+Pigeons and Doves (Columbidae)	Band-tailed Pigeon	Patagioenas fasciata	1
+Pigeons and Doves (Columbidae)	Oriental Turtle-Dove	Streptopelia orientalis	4
+Pigeons and Doves (Columbidae)	European Turtle-Dove	Streptopelia turtur	5
+Pigeons and Doves (Columbidae)	Eurasian Collared-Dove	Streptopelia decaocto	1
+Pigeons and Doves (Columbidae)	Spotted Dove	Streptopelia chinensis	2
+Pigeons and Doves (Columbidae)	White-winged Dove	Zenaida asiatica	1
+Pigeons and Doves (Columbidae)	Zenaida Dove	Zenaida aurita	5
+Pigeons and Doves (Columbidae)	Mourning Dove	Zenaida macroura	1
+Pigeons and Doves (Columbidae)	Passenger Pigeon	Ectopistes migratorius	6
+Pigeons and Doves (Columbidae)	Inca Dove	Columbina inca	1
+Pigeons and Doves (Columbidae)	Common Ground-Dove	Columbina passerina	1
+Pigeons and Doves (Columbidae)	Ruddy Ground-Dove	Columbina talpacoti	3
+Pigeons and Doves (Columbidae)	White-tipped Dove	Leptotila verreauxi	2
+Pigeons and Doves (Columbidae)	Key West Quail-Dove	Geotrygon chrysia	4
+Pigeons and Doves (Columbidae)	Ruddy Quail-Dove	Geotrygon montana	5
+Cuckoos, Roadrunners, and Anis (Cuculidae)	Common Cuckoo	Cuculus canorus	3
+Cuckoos, Roadrunners, and Anis (Cuculidae)	Oriental Cuckoo	Cuculus optatus	4
+Cuckoos, Roadrunners, and Anis (Cuculidae)	Yellow-billed Cuckoo	Coccyzus americanus	1
+Cuckoos, Roadrunners, and Anis (Cuculidae)	Mangrove Cuckoo	Coccyzus minor	2
+Cuckoos, Roadrunners, and Anis (Cuculidae)	Black-billed Cuckoo	Coccyzus erythropthalmus	1
+Cuckoos, Roadrunners, and Anis (Cuculidae)	Greater Roadrunner	Geococcyx californianus	1
+Cuckoos, Roadrunners, and Anis (Cuculidae)	Smooth-billed Ani	Crotophaga ani	3
+Cuckoos, Roadrunners, and Anis (Cuculidae)	Groove-billed Ani	Crotophaga sulcirostris	2
+Barn Owls (Tytonidae)	Barn Owl	Tyto alba	1
+Typical Owls (Strigidae)	Flammulated Owl	Psiloscops flammeolus	2
+Typical Owls (Strigidae)	Oriental Scops-Owl	Otus sunia	5
+Typical Owls (Strigidae)	Western Screech-Owl	Megascops kennicottii	1
+Typical Owls (Strigidae)	Eastern Screech-Owl	Megascops asio	1
+Typical Owls (Strigidae)	Whiskered Screech-Owl	Megascops trichopsis	2
+Typical Owls (Strigidae)	Great Horned Owl	Bubo virginianus	1
+Typical Owls (Strigidae)	Snowy Owl	Bubo scandiacus	2
+Typical Owls (Strigidae)	Northern Hawk Owl	Surnia ulula	2
+Typical Owls (Strigidae)	Northern Pygmy-Owl	Glaucidium gnoma	2
+Typical Owls (Strigidae)	Ferruginous Pygmy-Owl	Glaucidium brasilianum	3
+Typical Owls (Strigidae)	Elf Owl	Micrathene whitneyi	2
+Typical Owls (Strigidae)	Burrowing Owl	Athene cunicularia	1
+Typical Owls (Strigidae)	Mottled Owl	Ciccaba virgata	5
+Typical Owls (Strigidae)	Spotted Owl	Strix occidentalis	2
+Typical Owls (Strigidae)	Barred Owl	Strix varia	1
+Typical Owls (Strigidae)	Great Gray Owl	Strix nebulosa	2
+Typical Owls (Strigidae)	Long-eared Owl	Asio otus	2
+Typical Owls (Strigidae)	Stygian Owl	Asio stygius	5
+Typical Owls (Strigidae)	Short-eared Owl	Asio flammeus	1
+Typical Owls (Strigidae)	Boreal Owl	Aegolius funereus	2
+Typical Owls (Strigidae)	Northern Saw-whet Owl	Aegolius acadicus	2
+Typical Owls (Strigidae)	Brown Hawk-Owl	Ninox scutulata	5
+Goatsuckers (Caprimulgidae)	Lesser Nighthawk	Chordeiles acutipennis	1
+Goatsuckers (Caprimulgidae)	Common Nighthawk	Chordeiles minor	1
+Goatsuckers (Caprimulgidae)	Antillean Nighthawk	Chordeiles gundlachii	2
+Goatsuckers (Caprimulgidae)	Common Pauraque	Nyctidromus albicollis	2
+Goatsuckers (Caprimulgidae)	Common Poorwill	Phalaenoptilus nuttallii	1
+Goatsuckers (Caprimulgidae)	Chuck-will's-widow	Antrostomus carolinensis	1
+Goatsuckers (Caprimulgidae)	Buff-collared Nightjar	Antrostomus ridgwayi	3
+Goatsuckers (Caprimulgidae)	Eastern Whip-poor-will	Antrostomus vociferus	1
+Goatsuckers (Caprimulgidae)	Mexican Whip-poor-will	Antrostomus arizonae	1
+Goatsuckers (Caprimulgidae)	Gray Nightjar	Caprimulgus indicus	5
+Swifts (Apodidae)	Black Swift	Cypseloides niger	2
+Swifts (Apodidae)	White-collared Swift	Streptoprocne zonaris	4
+Swifts (Apodidae)	Chimney Swift	Chaetura pelagica	1
+Swifts (Apodidae)	Vaux's Swift	Chaetura vauxi	1
+Swifts (Apodidae)	White-throated Needletail	Hirundapus caudacutus	5
+Swifts (Apodidae)	Common Swift	Apus apus	5
+Swifts (Apodidae)	Fork-tailed Swift	Apus pacificus	4
+Swifts (Apodidae)	White-throated Swift	Aeronautes saxatalis	1
+Swifts (Apodidae)	Antillean Palm-Swift	Tachornis phoenicobia	5
+Hummingbirds (Trochilidae)	Green Violetear	Colibri thalassinus	3
+Hummingbirds (Trochilidae)	Green-breasted Mango	Anthracothorax prevostii	4
+Hummingbirds (Trochilidae)	Magnificent Hummingbird	Eugenes fulgens	2
+Hummingbirds (Trochilidae)	Plain-capped Starthroat	Heliomaster constantii	4
+Hummingbirds (Trochilidae)	Blue-throated Hummingbird	Lampornis clemenciae	2
+Hummingbirds (Trochilidae)	Bahama Woodstar	Calliphlox evelynae	5
+Hummingbirds (Trochilidae)	Lucifer Hummingbird	Calothorax lucifer	2
+Hummingbirds (Trochilidae)	Ruby-throated Hummingbird	Archilochus colubris	1
+Hummingbirds (Trochilidae)	Black-chinned Hummingbird	Archilochus alexandri	1
+Hummingbirds (Trochilidae)	Anna's Hummingbird	Calypte anna	1
+Hummingbirds (Trochilidae)	Costa's Hummingbird	Calypte costae	1
+Hummingbirds (Trochilidae)	Bumblebee Hummingbird	Atthis heloisa	5
+Hummingbirds (Trochilidae)	Broad-tailed Hummingbird	Selasphorus platycercus	1
+Hummingbirds (Trochilidae)	Rufous Hummingbird	Selasphorus rufus	1
+Hummingbirds (Trochilidae)	Allen's Hummingbird	Selasphorus sasin	1
+Hummingbirds (Trochilidae)	Calliope Hummingbird	Selasphorus calliope	1
+Hummingbirds (Trochilidae)	Broad-billed Hummingbird	Cynanthus latirostris	2
+Hummingbirds (Trochilidae)	Berylline Hummingbird	Amazilia beryllina	3
+Hummingbirds (Trochilidae)	Buff-bellied Hummingbird	Amazilia yucatanensis	2
+Hummingbirds (Trochilidae)	Cinnamon Hummingbird	Amazilia rutila	5
+Hummingbirds (Trochilidae)	Violet-crowned Hummingbird	Amazilia violiceps	2
+Hummingbirds (Trochilidae)	White-eared Hummingbird	Hylocharis leucotis	3
+Hummingbirds (Trochilidae)	Xantus's Hummingbird	Hylocharis xantusii	5
+Trogons (Trogonidae)	Elegant Trogon	Trogon elegans	2
+Trogons (Trogonidae)	Eared Quetzal	Euptilotis neoxenus	4
+Hoopoes (Upupidae)	Eurasian Hoopoe	Upupa epops	5
+Kingfishers (Alcedinidae)	Ringed Kingfisher	Megaceryle torquata	2
+Kingfishers (Alcedinidae)	Belted Kingfisher	Megaceryle alcyon	1
+Kingfishers (Alcedinidae)	Amazon Kingfisher	Chloroceryle amazona	5
+Kingfishers (Alcedinidae)	Green Kingfisher	Chloroceryle americana	2
+Woodpeckers and Allies (Picidae)	Eurasian Wryneck	Jynx torquilla	5
+Woodpeckers and Allies (Picidae)	Lewis's Woodpecker	Melanerpes lewis	1
+Woodpeckers and Allies (Picidae)	Red-headed Woodpecker	Melanerpes erythrocephalus	1
+Woodpeckers and Allies (Picidae)	Acorn Woodpecker	Melanerpes formicivorus	1
+Woodpeckers and Allies (Picidae)	Gila Woodpecker	Melanerpes uropygialis	1
+Woodpeckers and Allies (Picidae)	Golden-fronted Woodpecker	Melanerpes aurifrons	1
+Woodpeckers and Allies (Picidae)	Red-bellied Woodpecker	Melanerpes carolinus	1
+Woodpeckers and Allies (Picidae)	Williamson's Sapsucker	Sphyrapicus thyroideus	1
+Woodpeckers and Allies (Picidae)	Yellow-bellied Sapsucker	Sphyrapicus varius	1
+Woodpeckers and Allies (Picidae)	Red-naped Sapsucker	Sphyrapicus nuchalis	1
+Woodpeckers and Allies (Picidae)	Red-breasted Sapsucker	Sphyrapicus ruber	1
+Woodpeckers and Allies (Picidae)	Great Spotted Woodpecker	Dendrocopos major	4
+Woodpeckers and Allies (Picidae)	Ladder-backed Woodpecker	Picoides scalaris	1
+Woodpeckers and Allies (Picidae)	Nuttall's Woodpecker	Picoides nuttallii	1
+Woodpeckers and Allies (Picidae)	Downy Woodpecker	Picoides pubescens	1
+Woodpeckers and Allies (Picidae)	Hairy Woodpecker	Picoides villosus	1
+Woodpeckers and Allies (Picidae)	Arizona Woodpecker	Picoides arizonae	2
+Woodpeckers and Allies (Picidae)	Red-cockaded Woodpecker	Picoides borealis	2
+Woodpeckers and Allies (Picidae)	White-headed Woodpecker	Picoides albolarvatus	1
+Woodpeckers and Allies (Picidae)	American Three-toed Woodpecker	Picoides dorsalis	2
+Woodpeckers and Allies (Picidae)	Black-backed Woodpecker	Picoides arcticus	2
+Woodpeckers and Allies (Picidae)	Northern Flicker	Colaptes auratus	1
+Woodpeckers and Allies (Picidae)	Gilded Flicker	Colaptes chrysoides	2
+Woodpeckers and Allies (Picidae)	Pileated Woodpecker	Dryocopus pileatus	1
+Woodpeckers and Allies (Picidae)	Ivory-billed Woodpecker	Campephilus principalis	6
+Caracaras and Falcons (Falconidae)	Collared Forest-Falcon	Micrastur semitorquatus	5
+Caracaras and Falcons (Falconidae)	Crested Caracara	Caracara cheriway	1
+Caracaras and Falcons (Falconidae)	Eurasian Kestrel	Falco tinnunculus	4
+Caracaras and Falcons (Falconidae)	American Kestrel	Falco sparverius	1
+Caracaras and Falcons (Falconidae)	Red-footed Falcon	Falco vespertinus	5
+Caracaras and Falcons (Falconidae)	Merlin	Falco columbarius	1
+Caracaras and Falcons (Falconidae)	Eurasian Hobby	Falco subbuteo	4
+Caracaras and Falcons (Falconidae)	Aplomado Falcon	Falco femoralis	3
+Caracaras and Falcons (Falconidae)	Gyrfalcon	Falco rusticolus	2
+Caracaras and Falcons (Falconidae)	Peregrine Falcon	Falco peregrinus	1
+Caracaras and Falcons (Falconidae)	Prairie Falcon	Falco mexicanus	1
+Lories, Parakeets, Macaws, and Parrots (Psittacidae)	Budgerigar	Melopsittacus undulatus	3
+Lories, Parakeets, Macaws, and Parrots (Psittacidae)	Rosy-faced Lovebird	Agapornis roseicollis	2
+Lories, Parakeets, Macaws, and Parrots (Psittacidae)	Monk Parakeet	Myiopsitta monachus	2
+Lories, Parakeets, Macaws, and Parrots (Psittacidae)	Carolina Parakeet	Conuropsis carolinensis	6
+Lories, Parakeets, Macaws, and Parrots (Psittacidae)	Green Parakeet	Aratinga holochlora	2
+Lories, Parakeets, Macaws, and Parrots (Psittacidae)	Nanday Parakeet	Nandayus nenday	2
+Lories, Parakeets, Macaws, and Parrots (Psittacidae)	Thick-billed Parrot	Rhynchopsitta pachyrhyncha	6
+Lories, Parakeets, Macaws, and Parrots (Psittacidae)	White-winged Parakeet	Brotogeris versicolurus	2
+Lories, Parakeets, Macaws, and Parrots (Psittacidae)	Red-crowned Parrot	Amazona viridigenalis	2
+Tyrant Flycatchers (Tyrannidae)	Northern Beardless-Tyrannulet	Camptostoma imberbe	2
+Tyrant Flycatchers (Tyrannidae)	Greenish Elaenia	Myiopagis viridicata	5
+Tyrant Flycatchers (Tyrannidae)	White-crested Elaenia	Elaenia albiceps	5
+Tyrant Flycatchers (Tyrannidae)	Tufted Flycatcher	Mitrephanes phaeocercus	5
+Tyrant Flycatchers (Tyrannidae)	Olive-sided Flycatcher	Contopus cooperi	1
+Tyrant Flycatchers (Tyrannidae)	Greater Pewee	Contopus pertinax	2
+Tyrant Flycatchers (Tyrannidae)	Western Wood-Pewee	Contopus sordidulus	1
+Tyrant Flycatchers (Tyrannidae)	Eastern Wood-Pewee	Contopus virens	1
+Tyrant Flycatchers (Tyrannidae)	Cuban Pewee	Contopus caribaeus	5
+Tyrant Flycatchers (Tyrannidae)	Yellow-bellied Flycatcher	Empidonax flaviventris	1
+Tyrant Flycatchers (Tyrannidae)	Acadian Flycatcher	Empidonax virescens	1
+Tyrant Flycatchers (Tyrannidae)	Alder Flycatcher	Empidonax alnorum	1
+Tyrant Flycatchers (Tyrannidae)	Willow Flycatcher	Empidonax traillii	1
+Tyrant Flycatchers (Tyrannidae)	Least Flycatcher	Empidonax minimus	1
+Tyrant Flycatchers (Tyrannidae)	Hammond's Flycatcher	Empidonax hammondii	1
+Tyrant Flycatchers (Tyrannidae)	Gray Flycatcher	Empidonax wrightii	1
+Tyrant Flycatchers (Tyrannidae)	Dusky Flycatcher	Empidonax oberholseri	1
+Tyrant Flycatchers (Tyrannidae)	Pacific-slope Flycatcher	Empidonax difficilis	1
+Tyrant Flycatchers (Tyrannidae)	Cordilleran Flycatcher	Empidonax occidentalis	1
+Tyrant Flycatchers (Tyrannidae)	Buff-breasted Flycatcher	Empidonax fulvifrons	2
+Tyrant Flycatchers (Tyrannidae)	Black Phoebe	Sayornis nigricans	1
+Tyrant Flycatchers (Tyrannidae)	Eastern Phoebe	Sayornis phoebe	1
+Tyrant Flycatchers (Tyrannidae)	Say's Phoebe	Sayornis saya	1
+Tyrant Flycatchers (Tyrannidae)	Vermilion Flycatcher	Pyrocephalus rubinus	1
+Tyrant Flycatchers (Tyrannidae)	Dusky-capped Flycatcher	Myiarchus tuberculifer	2
+Tyrant Flycatchers (Tyrannidae)	Ash-throated Flycatcher	Myiarchus cinerascens	1
+Tyrant Flycatchers (Tyrannidae)	Nutting's Flycatcher	Myiarchus nuttingi	5
+Tyrant Flycatchers (Tyrannidae)	Great Crested Flycatcher	Myiarchus crinitus	1
+Tyrant Flycatchers (Tyrannidae)	Brown-crested Flycatcher	Myiarchus tyrannulus	1
+Tyrant Flycatchers (Tyrannidae)	La Sagra's Flycatcher	Myiarchus sagrae	3
+Tyrant Flycatchers (Tyrannidae)	Great Kiskadee	Pitangus sulphuratus	2
+Tyrant Flycatchers (Tyrannidae)	Social Flycatcher	Myiozetetes similis	5
+Tyrant Flycatchers (Tyrannidae)	Sulphur-bellied Flycatcher	Myiodynastes luteiventris	2
+Tyrant Flycatchers (Tyrannidae)	Piratic Flycatcher	Legatus leucophaius	4
+Tyrant Flycatchers (Tyrannidae)	Variegated Flycatcher	Empidonomus varius	5
+Tyrant Flycatchers (Tyrannidae)	Crowned Slaty Flycatcher	Empidonomus aurantioatrocristatus	5
+Tyrant Flycatchers (Tyrannidae)	Tropical Kingbird	Tyrannus melancholicus	2
+Tyrant Flycatchers (Tyrannidae)	Couch's Kingbird	Tyrannus couchii	2
+Tyrant Flycatchers (Tyrannidae)	Cassin's Kingbird	Tyrannus vociferans	1
+Tyrant Flycatchers (Tyrannidae)	Thick-billed Kingbird	Tyrannus crassirostris	2
+Tyrant Flycatchers (Tyrannidae)	Western Kingbird	Tyrannus verticalis	1
+Tyrant Flycatchers (Tyrannidae)	Eastern Kingbird	Tyrannus tyrannus	1
+Tyrant Flycatchers (Tyrannidae)	Gray Kingbird	Tyrannus dominicensis	2
+Tyrant Flycatchers (Tyrannidae)	Loggerhead Kingbird	Tyrannus caudifasciatus	5
+Tyrant Flycatchers (Tyrannidae)	Scissor-tailed Flycatcher	Tyrannus forficatus	1
+Tyrant Flycatchers (Tyrannidae)	Fork-tailed Flycatcher	Tyrannus savana	3
+Becards, Tityras, and Allies (Tityridae)	Masked Tityra	Tityra semifasciata	5
+Becards, Tityras, and Allies (Tityridae)	Gray-collared Becard	Pachyramphus major	5
+Becards, Tityras, and Allies (Tityridae)	Rose-throated Becard	Pachyramphus aglaiae	3
+Shrikes (Laniidae)	Brown Shrike	Lanius cristatus	4
+Shrikes (Laniidae)	Loggerhead Shrike	Lanius ludovicianus	1
+Shrikes (Laniidae)	Northern Shrike	Lanius excubitor	1
+Vireos (Vireonidae)	White-eyed Vireo	Vireo griseus	1
+Vireos (Vireonidae)	Thick-billed Vireo	Vireo crassirostris	4
+Vireos (Vireonidae)	Bell's Vireo	Vireo bellii	1
+Vireos (Vireonidae)	Black-capped Vireo	Vireo atricapilla	2
+Vireos (Vireonidae)	Gray Vireo	Vireo vicinior	2
+Vireos (Vireonidae)	Yellow-throated Vireo	Vireo flavifrons	1
+Vireos (Vireonidae)	Plumbeous Vireo	Vireo plumbeus	1
+Vireos (Vireonidae)	Cassin's Vireo	Vireo cassinii	1
+Vireos (Vireonidae)	Blue-headed Vireo	Vireo solitarius	1
+Vireos (Vireonidae)	Hutton's Vireo	Vireo huttoni	1
+Vireos (Vireonidae)	Warbling Vireo	Vireo gilvus	1
+Vireos (Vireonidae)	Philadelphia Vireo	Vireo philadelphicus	1
+Vireos (Vireonidae)	Red-eyed Vireo	Vireo olivaceus	1
+Vireos (Vireonidae)	Yellow-green Vireo	Vireo flavoviridis	3
+Vireos (Vireonidae)	Black-whiskered Vireo	Vireo altiloquus	2
+Vireos (Vireonidae)	Yucatan Vireo	Vireo magister	5
+Jays and Crows (Corvidae)	Gray Jay	Perisoreus canadensis	1
+Jays and Crows (Corvidae)	Brown Jay	Psilorhinus morio	3
+Jays and Crows (Corvidae)	Green Jay	Cyanocorax yncas	2
+Jays and Crows (Corvidae)	Pinyon Jay	Gymnorhinus cyanocephalus	1
+Jays and Crows (Corvidae)	Steller's Jay	Cyanocitta stelleri	1
+Jays and Crows (Corvidae)	Blue Jay	Cyanocitta cristata	1
+Jays and Crows (Corvidae)	Florida Scrub-Jay	Aphelocoma coerulescens	2
+Jays and Crows (Corvidae)	Island Scrub-Jay	Aphelocoma insularis	2
+Jays and Crows (Corvidae)	Western Scrub-Jay	Aphelocoma californica	1
+Jays and Crows (Corvidae)	Mexican Jay	Aphelocoma wollweberi	2
+Jays and Crows (Corvidae)	Clark's Nutcracker	Nucifraga columbiana	1
+Jays and Crows (Corvidae)	Black-billed Magpie	Pica hudsonia	1
+Jays and Crows (Corvidae)	Yellow-billed Magpie	Pica nuttalli	2
+Jays and Crows (Corvidae)	Eurasian Jackdaw	Corvus monedula	4
+Jays and Crows (Corvidae)	American Crow	Corvus brachyrhynchos	1
+Jays and Crows (Corvidae)	Northwestern Crow	Corvus caurinus	1
+Jays and Crows (Corvidae)	Tamaulipas Crow	Corvus imparatus	3
+Jays and Crows (Corvidae)	Fish Crow	Corvus ossifragus	1
+Jays and Crows (Corvidae)	Chihuahuan Raven	Corvus cryptoleucus	1
+Jays and Crows (Corvidae)	Common Raven	Corvus corax	1
+Larks (Alaudidae)	Sky Lark	Alauda arvensis	3
+Larks (Alaudidae)	Horned Lark	Eremophila alpestris	1
+Swallows (Hirundinidae)	Purple Martin	Progne subis	1
+Swallows (Hirundinidae)	Cuban Martin	Progne cryptoleuca	5
+Swallows (Hirundinidae)	Gray-breasted Martin	Progne chalybea	5
+Swallows (Hirundinidae)	Southern Martin	Progne elegans	5
+Swallows (Hirundinidae)	Brown-chested Martin	Progne tapera	5
+Swallows (Hirundinidae)	Tree Swallow	Tachycineta bicolor	1
+Swallows (Hirundinidae)	Mangrove Swallow	Tachycineta albilinea	5
+Swallows (Hirundinidae)	Violet-green Swallow	Tachycineta thalassina	1
+Swallows (Hirundinidae)	Bahama Swallow	Tachycineta cyaneoviridis	4
+Swallows (Hirundinidae)	Northern Rough-winged Swallow	Stelgidopteryx serripennis	1
+Swallows (Hirundinidae)	Bank Swallow	Riparia riparia	1
+Swallows (Hirundinidae)	Cliff Swallow	Petrochelidon pyrrhonota	1
+Swallows (Hirundinidae)	Cave Swallow	Petrochelidon fulva	1
+Swallows (Hirundinidae)	Barn Swallow	Hirundo rustica	1
+Swallows (Hirundinidae)	Common House-Martin	Delichon urbicum	4
+Chickadees and Titmice (Paridae)	Carolina Chickadee	Poecile carolinensis	1
+Chickadees and Titmice (Paridae)	Black-capped Chickadee	Poecile atricapillus	1
+Chickadees and Titmice (Paridae)	Mountain Chickadee	Poecile gambeli	1
+Chickadees and Titmice (Paridae)	Mexican Chickadee	Poecile sclateri	2
+Chickadees and Titmice (Paridae)	Chestnut-backed Chickadee	Poecile rufescens	1
+Chickadees and Titmice (Paridae)	Boreal Chickadee	Poecile hudsonicus	1
+Chickadees and Titmice (Paridae)	Gray-headed Chickadee	Poecile cinctus	3
+Chickadees and Titmice (Paridae)	Bridled Titmouse	Baeolophus wollweberi	2
+Chickadees and Titmice (Paridae)	Oak Titmouse	Baeolophus inornatus	1
+Chickadees and Titmice (Paridae)	Juniper Titmouse	Baeolophus ridgwayi	1
+Chickadees and Titmice (Paridae)	Tufted Titmouse	Baeolophus bicolor	1
+Chickadees and Titmice (Paridae)	Black-crested Titmouse	Baeolophus atricristatus	2
+Verdin (Remizidae)	Verdin	Auriparus flaviceps	1
+Bushtits (Aegithalidae)	Bushtit	Psaltriparus minimus	1
+Nuthatches (Sittidae)	Red-breasted Nuthatch	Sitta canadensis	1
+Nuthatches (Sittidae)	White-breasted Nuthatch	Sitta carolinensis	1
+Nuthatches (Sittidae)	Pygmy Nuthatch	Sitta pygmaea	1
+Nuthatches (Sittidae)	Brown-headed Nuthatch	Sitta pusilla	1
+Creepers (Certhiidae)	Brown Creeper	Certhia americana	1
+Wrens (Troglodytidae)	Rock Wren	Salpinctes obsoletus	1
+Wrens (Troglodytidae)	Canyon Wren	Catherpes mexicanus	1
+Wrens (Troglodytidae)	House Wren	Troglodytes aedon	1
+Wrens (Troglodytidae)	Pacific Wren	Troglodytes pacificus	1
+Wrens (Troglodytidae)	Winter Wren	Troglodytes hiemalis	1
+Wrens (Troglodytidae)	Sedge Wren	Cistothorus platensis	1
+Wrens (Troglodytidae)	Marsh Wren	Cistothorus palustris	1
+Wrens (Troglodytidae)	Carolina Wren	Thryothorus ludovicianus	1
+Wrens (Troglodytidae)	Bewick's Wren	Thryomanes bewickii	1
+Wrens (Troglodytidae)	Cactus Wren	Campylorhynchus brunneicapillus	1
+Wrens (Troglodytidae)	Sinaloa Wren	Thryophilus sinaloa	5
+Gnatcatchers and Gnatwrens (Polioptilidae)	Blue-gray Gnatcatcher	Polioptila caerulea	1
+Gnatcatchers and Gnatwrens (Polioptilidae)	California Gnatcatcher	Polioptila californica	2
+Gnatcatchers and Gnatwrens (Polioptilidae)	Black-tailed Gnatcatcher	Polioptila melanura	1
+Gnatcatchers and Gnatwrens (Polioptilidae)	Black-capped Gnatcatcher	Polioptila nigriceps	3
+Dippers (Cinclidae)	American Dipper	Cinclus mexicanus	1
+Bulbuls (Pycnonotidae)	Red-whiskered Bulbul	Pycnonotus jocosus	2
+Kinglets (Regulidae)	Golden-crowned Kinglet	Regulus satrapa	1
+Kinglets (Regulidae)	Ruby-crowned Kinglet	Regulus calendula	1
+Leaf Warblers (Phylloscopidae)	Willow Warbler	Phylloscopus trochilus	5
+Leaf Warblers (Phylloscopidae)	Common Chiffchaff	Phylloscopus collybita	5
+Leaf Warblers (Phylloscopidae)	Wood Warbler	Phylloscopus sibilatrix	5
+Leaf Warblers (Phylloscopidae)	Dusky Warbler	Phylloscopus fuscatus	4
+Leaf Warblers (Phylloscopidae)	Pallas's Leaf-Warbler	Phylloscopus proregulus	5
+Leaf Warblers (Phylloscopidae)	Yellow-browed Warbler	Phylloscopus inornatus	4
+Leaf Warblers (Phylloscopidae)	Arctic Warbler	Phylloscopus borealis	2
+Sylviid Warblers (Sylviidae)	Lesser Whitethroat	Sylvia curruca	5
+Sylviid Warblers (Sylviidae)	Wrentit	Chamaea fasciata	1
+Reed Warblers (Acrocephalidae)	Sedge Warbler	Acrocephalus schoenobaenus	5
+Grassbirds (Megaluridae)	Middendorff's Grasshopper-Warbler	Locustella ochotensis	4
+Grassbirds (Megaluridae)	Lanceolated Warbler	Locustella lanceolata	5
+Old World Flycatchers (Muscicapidae)	Gray-streaked Flycatcher	Muscicapa griseisticta	4
+Old World Flycatchers (Muscicapidae)	Asian Brown Flycatcher	Muscicapa dauurica	5
+Old World Flycatchers (Muscicapidae)	Spotted Flycatcher	Muscicapa striata	5
+Old World Flycatchers (Muscicapidae)	Dark-sided Flycatcher	Muscicapa sibirica	4
+Old World Flycatchers (Muscicapidae)	Rufous-tailed Robin	Luscinia sibilans	5
+Old World Flycatchers (Muscicapidae)	Siberian Rubythroat	Luscinia calliope	3
+Old World Flycatchers (Muscicapidae)	Bluethroat	Luscinia svecica	2
+Old World Flycatchers (Muscicapidae)	Siberian Blue Robin	Luscinia cyane	5
+Old World Flycatchers (Muscicapidae)	Red-flanked Bluetail	Tarsiger cyanurus	4
+Old World Flycatchers (Muscicapidae)	Narcissus Flycatcher	Ficedula narcissina	5
+Old World Flycatchers (Muscicapidae)	Mugimaki Flycatcher	Ficedula mugimaki	5
+Old World Flycatchers (Muscicapidae)	Taiga Flycatcher	Ficedula albicilla	4
+Old World Flycatchers (Muscicapidae)	Northern Wheatear	Oenanthe oenanthe	2
+Old World Flycatchers (Muscicapidae)	Stonechat	Saxicola torquatus	4
+Thrushes (Turdidae)	Eastern Bluebird	Sialia sialis	1
+Thrushes (Turdidae)	Western Bluebird	Sialia mexicana	1
+Thrushes (Turdidae)	Mountain Bluebird	Sialia currucoides	1
+Thrushes (Turdidae)	Townsend's Solitaire	Myadestes townsendi	1
+Thrushes (Turdidae)	Brown-backed Solitaire	Myadestes occidentalis	5
+Thrushes (Turdidae)	Orange-billed Nightingale-Thrush	Catharus aurantiirostris	5
+Thrushes (Turdidae)	Black-headed Nightingale-Thrush	Catharus mexicanus	5
+Thrushes (Turdidae)	Veery	Catharus fuscescens	1
+Thrushes (Turdidae)	Gray-cheeked Thrush	Catharus minimus	1
+Thrushes (Turdidae)	Bicknell's Thrush	Catharus bicknelli	2
+Thrushes (Turdidae)	Swainson's Thrush	Catharus ustulatus	1
+Thrushes (Turdidae)	Hermit Thrush	Catharus guttatus	1
+Thrushes (Turdidae)	Wood Thrush	Hylocichla mustelina	1
+Thrushes (Turdidae)	Eurasian Blackbird	Turdus merula	5
+Thrushes (Turdidae)	Eyebrowed Thrush	Turdus obscurus	3
+Thrushes (Turdidae)	Dusky Thrush	Turdus naumanni	4
+Thrushes (Turdidae)	Fieldfare	Turdus pilaris	4
+Thrushes (Turdidae)	Redwing	Turdus iliacus	4
+Thrushes (Turdidae)	Song Thrush	Turdus philomelos	5
+Thrushes (Turdidae)	Clay-colored Thrush	Turdus grayi	3
+Thrushes (Turdidae)	White-throated Thrush	Turdus assimilis	4
+Thrushes (Turdidae)	Rufous-backed Robin	Turdus rufopalliatus	3
+Thrushes (Turdidae)	American Robin	Turdus migratorius	1
+Thrushes (Turdidae)	Red-legged Thrush	Turdus plumbeus	5
+Thrushes (Turdidae)	Varied Thrush	Ixoreus naevius	1
+Thrushes (Turdidae)	Aztec Thrush	Ridgwayia pinicola	4
+Mockingbirds and Thrashers (Mimidae)	Blue Mockingbird	Melanotis caerulescens	5
+Mockingbirds and Thrashers (Mimidae)	Gray Catbird	Dumetella carolinensis	1
+Mockingbirds and Thrashers (Mimidae)	Curve-billed Thrasher	Toxostoma curvirostre	1
+Mockingbirds and Thrashers (Mimidae)	Brown Thrasher	Toxostoma rufum	1
+Mockingbirds and Thrashers (Mimidae)	Long-billed Thrasher	Toxostoma longirostre	2
+Mockingbirds and Thrashers (Mimidae)	Bendire's Thrasher	Toxostoma bendirei	2
+Mockingbirds and Thrashers (Mimidae)	California Thrasher	Toxostoma redivivum	2
+Mockingbirds and Thrashers (Mimidae)	Le Conte's Thrasher	Toxostoma lecontei	2
+Mockingbirds and Thrashers (Mimidae)	Crissal Thrasher	Toxostoma crissale	2
+Mockingbirds and Thrashers (Mimidae)	Sage Thrasher	Oreoscoptes montanus	1
+Mockingbirds and Thrashers (Mimidae)	Bahama Mockingbird	Mimus gundlachii	4
+Mockingbirds and Thrashers (Mimidae)	Northern Mockingbird	Mimus polyglottos	1
+Starlings (Sturnidae)	European Starling	Sturnus vulgaris	1
+Starlings (Sturnidae)	Common Myna	Acridotheres tristis	2
+Accentors (Prunellidae)	Siberian Accentor	Prunella montanella	4
+Wagtails and Pipits (Motacillidae)	Eastern Yellow Wagtail	Motacilla tschutschensis	2
+Wagtails and Pipits (Motacillidae)	Citrine Wagtail	Motacilla citreola	5
+Wagtails and Pipits (Motacillidae)	Gray Wagtail	Motacilla cinerea	4
+Wagtails and Pipits (Motacillidae)	White Wagtail	Motacilla alba	3
+Wagtails and Pipits (Motacillidae)	Tree Pipit	Anthus trivialis	5
+Wagtails and Pipits (Motacillidae)	Olive-backed Pipit	Anthus hodgsoni	3
+Wagtails and Pipits (Motacillidae)	Pechora Pipit	Anthus gustavi	4
+Wagtails and Pipits (Motacillidae)	Red-throated Pipit	Anthus cervinus	3
+Wagtails and Pipits (Motacillidae)	American Pipit	Anthus rubescens	1
+Wagtails and Pipits (Motacillidae)	Sprague's Pipit	Anthus spragueii	2
+Waxwings (Bombycillidae)	Bohemian Waxwing	Bombycilla garrulus	2
+Waxwings (Bombycillidae)	Cedar Waxwing	Bombycilla cedrorum	1
+Silky-flycatchers (Ptiliogonatidae)	Gray Silky-flycatcher	Ptiliogonys cinereus	5
+Silky-flycatchers (Ptiliogonatidae)	Phainopepla	Phainopepla nitens	1
+Olive Warblers (Peucedramidae)	Olive Warbler	Peucedramus taeniatus	2
+Longspurs and Snow Buntings (Calcariidae)	Lapland Longspur	Calcarius lapponicus	1
+Longspurs and Snow Buntings (Calcariidae)	Chestnut-collared Longspur	Calcarius ornatus	1
+Longspurs and Snow Buntings (Calcariidae)	Smith's Longspur	Calcarius pictus	2
+Longspurs and Snow Buntings (Calcariidae)	McCown's Longspur	Rhynchophanes mccownii	2
+Longspurs and Snow Buntings (Calcariidae)	Snow Bunting	Plectrophenax nivalis	1
+Longspurs and Snow Buntings (Calcariidae)	McKay's Bunting	Plectrophenax hyperboreus	2
+Wood-Warblers (Parulidae)	Ovenbird	Seiurus aurocapilla	1
+Wood-Warblers (Parulidae)	Worm-eating Warbler	Helmitheros vermivorum	1
+Wood-Warblers (Parulidae)	Louisiana Waterthrush	Parkesia motacilla	1
+Wood-Warblers (Parulidae)	Northern Waterthrush	Parkesia noveboracensis	1
+Wood-Warblers (Parulidae)	Bachman's Warbler	Vermivora bachmanii	6
+Wood-Warblers (Parulidae)	Golden-winged Warbler	Vermivora chrysoptera	2
+Wood-Warblers (Parulidae)	Blue-winged Warbler	Vermivora cyanoptera	1
+Wood-Warblers (Parulidae)	Black-and-white Warbler	Mniotilta varia	1
+Wood-Warblers (Parulidae)	Prothonotary Warbler	Protonotaria citrea	1
+Wood-Warblers (Parulidae)	Swainson's Warbler	Limnothlypis swainsonii	2
+Wood-Warblers (Parulidae)	Crescent-chested Warbler	Oreothlypis superciliosa	4
+Wood-Warblers (Parulidae)	Tennessee Warbler	Oreothlypis peregrina	1
+Wood-Warblers (Parulidae)	Orange-crowned Warbler	Oreothlypis celata	1
+Wood-Warblers (Parulidae)	Colima Warbler	Oreothlypis crissalis	1
+Wood-Warblers (Parulidae)	Lucy's Warbler	Oreothlypis luciae	1
+Wood-Warblers (Parulidae)	Nashville Warbler	Oreothlypis ruficapilla	1
+Wood-Warblers (Parulidae)	Virginia's Warbler	Oreothlypis virginiae	1
+Wood-Warblers (Parulidae)	Connecticut Warbler	Oporornis agilis	2
+Wood-Warblers (Parulidae)	Gray-crowned Yellowthroat	Geothlypis poliocephala	4
+Wood-Warblers (Parulidae)	MacGillivray's Warbler	Geothlypis tolmiei	1
+Wood-Warblers (Parulidae)	Mourning Warbler	Geothlypis philadelphia	1
+Wood-Warblers (Parulidae)	Kentucky Warbler	Geothlypis formosa	1
+Wood-Warblers (Parulidae)	Common Yellowthroat	Geothlypis trichas	1
+Wood-Warblers (Parulidae)	Hooded Warbler	Setophaga citrina	1
+Wood-Warblers (Parulidae)	American Redstart	Setophaga ruticilla	1
+Wood-Warblers (Parulidae)	Kirtland's Warbler	Setophaga kirtlandii	2
+Wood-Warblers (Parulidae)	Cape May Warbler	Setophaga tigrina	1
+Wood-Warblers (Parulidae)	Cerulean Warbler	Setophaga cerulea	2
+Wood-Warblers (Parulidae)	Northern Parula	Setophaga americana	1
+Wood-Warblers (Parulidae)	Tropical Parula	Setophaga pitiayumi	3
+Wood-Warblers (Parulidae)	Magnolia Warbler	Setophaga magnolia	1
+Wood-Warblers (Parulidae)	Bay-breasted Warbler	Setophaga castanea	1
+Wood-Warblers (Parulidae)	Blackburnian Warbler	Setophaga fusca	1
+Wood-Warblers (Parulidae)	Yellow Warbler	Setophaga petechia	1
+Wood-Warblers (Parulidae)	Chestnut-sided Warbler	Setophaga pensylvanica	1
+Wood-Warblers (Parulidae)	Blackpoll Warbler	Setophaga striata	1
+Wood-Warblers (Parulidae)	Black-throated Blue Warbler	Setophaga caerulescens	1
+Wood-Warblers (Parulidae)	Palm Warbler	Setophaga palmarum	1
+Wood-Warblers (Parulidae)	Pine Warbler	Setophaga pinus	1
+Wood-Warblers (Parulidae)	Yellow-rumped Warbler	Setophaga coronata	1
+Wood-Warblers (Parulidae)	Yellow-throated Warbler	Setophaga dominica	1
+Wood-Warblers (Parulidae)	Prairie Warbler	Setophaga discolor	1
+Wood-Warblers (Parulidae)	Grace's Warbler	Setophaga graciae	1
+Wood-Warblers (Parulidae)	Black-throated Gray Warbler	Setophaga nigrescens	1
+Wood-Warblers (Parulidae)	Townsend's Warbler	Setophaga townsendi	1
+Wood-Warblers (Parulidae)	Hermit Warbler	Setophaga occidentalis	1
+Wood-Warblers (Parulidae)	Golden-cheeked Warbler	Setophaga chrysoparia	2
+Wood-Warblers (Parulidae)	Black-throated Green Warbler	Setophaga virens	1
+Wood-Warblers (Parulidae)	Fan-tailed Warbler	Basileuterus lachrymosus	4
+Wood-Warblers (Parulidae)	Rufous-capped Warbler	Basileuterus rufifrons	3
+Wood-Warblers (Parulidae)	Golden-crowned Warbler	Basileuterus culicivorus	4
+Wood-Warblers (Parulidae)	Canada Warbler	Cardellina canadensis	1
+Wood-Warblers (Parulidae)	Wilson's Warbler	Cardellina pusilla	1
+Wood-Warblers (Parulidae)	Red-faced Warbler	Cardellina rubrifrons	2
+Wood-Warblers (Parulidae)	Painted Redstart	Myioborus pictus	2
+Wood-Warblers (Parulidae)	Slate-throated Redstart	Myioborus miniatus	4
+Wood-Warblers (Parulidae)	Yellow-breasted Chat	Icteria virens	1
+Bananaquits (incertae sedis)	Bananaquit	Coereba flaveola	4
+Tanagers (Thraupidae)	Western Spindalis	Spindalis zena	3
+Emberizids (Emberizidae)	White-collared Seedeater	Sporophila torqueola	3
+Emberizids (Emberizidae)	Yellow-faced Grassquit	Tiaris olivaceus	4
+Emberizids (Emberizidae)	Black-faced Grassquit	Tiaris bicolor	4
+Emberizids (Emberizidae)	Olive Sparrow	Arremonops rufivirgatus	2
+Emberizids (Emberizidae)	Green-tailed Towhee	Pipilo chlorurus	1
+Emberizids (Emberizidae)	Spotted Towhee	Pipilo maculatus	1
+Emberizids (Emberizidae)	Eastern Towhee	Pipilo erythrophthalmus	1
+Emberizids (Emberizidae)	Rufous-crowned Sparrow	Aimophila ruficeps	1
+Emberizids (Emberizidae)	Canyon Towhee	Melozone fusca	1
+Emberizids (Emberizidae)	California Towhee	Melozone crissalis	1
+Emberizids (Emberizidae)	Abert's Towhee	Melozone aberti	1
+Emberizids (Emberizidae)	Rufous-winged Sparrow	Peucaea carpalis	2
+Emberizids (Emberizidae)	Botteri's Sparrow	Peucaea botterii	2
+Emberizids (Emberizidae)	Cassin's Sparrow	Peucaea cassinii	1
+Emberizids (Emberizidae)	Bachman's Sparrow	Peucaea aestivalis	2
+Emberizids (Emberizidae)	American Tree Sparrow	Spizella arborea	1
+Emberizids (Emberizidae)	Chipping Sparrow	Spizella passerina	1
+Emberizids (Emberizidae)	Clay-colored Sparrow	Spizella pallida	1
+Emberizids (Emberizidae)	Brewer's Sparrow	Spizella breweri	1
+Emberizids (Emberizidae)	Field Sparrow	Spizella pusilla	1
+Emberizids (Emberizidae)	Worthen's Sparrow	Spizella wortheni	5
+Emberizids (Emberizidae)	Black-chinned Sparrow	Spizella atrogularis	1
+Emberizids (Emberizidae)	Vesper Sparrow	Pooecetes gramineus	1
+Emberizids (Emberizidae)	Lark Sparrow	Chondestes grammacus	1
+Emberizids (Emberizidae)	Five-striped Sparrow	Amphispiza quinquestriata	3
+Emberizids (Emberizidae)	Black-throated Sparrow	Amphispiza bilineata	1
+Emberizids (Emberizidae)	Sagebrush Sparrow	Artemisiospiza nevadensis	1
+Emberizids (Emberizidae)	Bell's Sparrow	Artemisiospiza belli	1
+Emberizids (Emberizidae)	Lark Bunting	Calamospiza melanocorys	1
+Emberizids (Emberizidae)	Savannah Sparrow	Passerculus sandwichensis	1
+Emberizids (Emberizidae)	Grasshopper Sparrow	Ammodramus savannarum	1
+Emberizids (Emberizidae)	Baird's Sparrow	Ammodramus bairdii	2
+Emberizids (Emberizidae)	Henslow's Sparrow	Ammodramus henslowii	2
+Emberizids (Emberizidae)	Le Conte's Sparrow	Ammodramus leconteii	1
+Emberizids (Emberizidae)	Nelson's Sparrow	Ammodramus nelsoni	1
+Emberizids (Emberizidae)	Saltmarsh Sparrow	Ammodramus caudacutus	1
+Emberizids (Emberizidae)	Seaside Sparrow	Ammodramus maritimus	1
+Emberizids (Emberizidae)	Fox Sparrow	Passerella iliaca	1
+Emberizids (Emberizidae)	Song Sparrow	Melospiza melodia	1
+Emberizids (Emberizidae)	Lincoln's Sparrow	Melospiza lincolnii	1
+Emberizids (Emberizidae)	Swamp Sparrow	Melospiza georgiana	1
+Emberizids (Emberizidae)	White-throated Sparrow	Zonotrichia albicollis	1
+Emberizids (Emberizidae)	Harris's Sparrow	Zonotrichia querula	1
+Emberizids (Emberizidae)	White-crowned Sparrow	Zonotrichia leucophrys	1
+Emberizids (Emberizidae)	Golden-crowned Sparrow	Zonotrichia atricapilla	1
+Emberizids (Emberizidae)	Dark-eyed Junco	Junco hyemalis	1
+Emberizids (Emberizidae)	Yellow-eyed Junco	Junco phaeonotus	2
+Emberizids (Emberizidae)	Pine Bunting	Emberiza leucocephalos	5
+Emberizids (Emberizidae)	Yellow-browed Bunting	Emberiza chrysophrys	5
+Emberizids (Emberizidae)	Little Bunting	Emberiza pusilla	4
+Emberizids (Emberizidae)	Rustic Bunting	Emberiza rustica	3
+Emberizids (Emberizidae)	Yellow-throated Bunting	Emberiza elegans	5
+Emberizids (Emberizidae)	Yellow-breasted Bunting	Emberiza aureola	5
+Emberizids (Emberizidae)	Gray Bunting	Emberiza variabilis	5
+Emberizids (Emberizidae)	Pallas's Bunting	Emberiza pallasi	5
+Emberizids (Emberizidae)	Reed Bunting	Emberiza schoeniclus	4
+Cardinals, Piranga Tanagers and Allies (Cardinalidae)	Hepatic Tanager	Piranga flava	2
+Cardinals, Piranga Tanagers and Allies (Cardinalidae)	Summer Tanager	Piranga rubra	1
+Cardinals, Piranga Tanagers and Allies (Cardinalidae)	Scarlet Tanager	Piranga olivacea	1
+Cardinals, Piranga Tanagers and Allies (Cardinalidae)	Western Tanager	Piranga ludoviciana	1
+Cardinals, Piranga Tanagers and Allies (Cardinalidae)	Flame-colored Tanager	Piranga bidentata	3
+Cardinals, Piranga Tanagers and Allies (Cardinalidae)	Crimson-collared Grosbeak	Rhodothraupis celaeno	4
+Cardinals, Piranga Tanagers and Allies (Cardinalidae)	Northern Cardinal	Cardinalis cardinalis	1
+Cardinals, Piranga Tanagers and Allies (Cardinalidae)	Pyrrhuloxia	Cardinalis sinuatus	1
+Cardinals, Piranga Tanagers and Allies (Cardinalidae)	Yellow Grosbeak	Pheucticus chrysopeplus	4
+Cardinals, Piranga Tanagers and Allies (Cardinalidae)	Rose-breasted Grosbeak	Pheucticus ludovicianus	1
+Cardinals, Piranga Tanagers and Allies (Cardinalidae)	Black-headed Grosbeak	Pheucticus melanocephalus	1
+Cardinals, Piranga Tanagers and Allies (Cardinalidae)	Blue Bunting	Cyanocompsa parellina	4
+Cardinals, Piranga Tanagers and Allies (Cardinalidae)	Blue Grosbeak	Passerina caerulea	1
+Cardinals, Piranga Tanagers and Allies (Cardinalidae)	Lazuli Bunting	Passerina amoena	1
+Cardinals, Piranga Tanagers and Allies (Cardinalidae)	Indigo Bunting	Passerina cyanea	1
+Cardinals, Piranga Tanagers and Allies (Cardinalidae)	Varied Bunting	Passerina versicolor	2
+Cardinals, Piranga Tanagers and Allies (Cardinalidae)	Painted Bunting	Passerina ciris	1
+Cardinals, Piranga Tanagers and Allies (Cardinalidae)	Dickcissel	Spiza americana	1
+Blackbirds (Icteridae)	Bobolink	Dolichonyx oryzivorus	1
+Blackbirds (Icteridae)	Red-winged Blackbird	Agelaius phoeniceus	1
+Blackbirds (Icteridae)	Tricolored Blackbird	Agelaius tricolor	2
+Blackbirds (Icteridae)	Tawny-shouldered Blackbird	Agelaius humeralis	5
+Blackbirds (Icteridae)	Eastern Meadowlark	Sturnella magna	1
+Blackbirds (Icteridae)	Western Meadowlark	Sturnella neglecta	1
+Blackbirds (Icteridae)	Yellow-headed Blackbird	Xanthocephalus xanthocephalus	1
+Blackbirds (Icteridae)	Rusty Blackbird	Euphagus carolinus	1
+Blackbirds (Icteridae)	Brewer's Blackbird	Euphagus cyanocephalus	1
+Blackbirds (Icteridae)	Common Grackle	Quiscalus quiscula	1
+Blackbirds (Icteridae)	Boat-tailed Grackle	Quiscalus major	1
+Blackbirds (Icteridae)	Great-tailed Grackle	Quiscalus mexicanus	1
+Blackbirds (Icteridae)	Shiny Cowbird	Molothrus bonariensis	3
+Blackbirds (Icteridae)	Bronzed Cowbird	Molothrus aeneus	1
+Blackbirds (Icteridae)	Brown-headed Cowbird	Molothrus ater	1
+Blackbirds (Icteridae)	Black-vented Oriole	Icterus wagleri	5
+Blackbirds (Icteridae)	Orchard Oriole	Icterus spurius	1
+Blackbirds (Icteridae)	Hooded Oriole	Icterus cucullatus	1
+Blackbirds (Icteridae)	Streak-backed Oriole	Icterus pustulatus	4
+Blackbirds (Icteridae)	Bullock's Oriole	Icterus bullockii	1
+Blackbirds (Icteridae)	Spot-breasted Oriole	Icterus pectoralis	2
+Blackbirds (Icteridae)	Altamira Oriole	Icterus gularis	2
+Blackbirds (Icteridae)	Audubon's Oriole	Icterus graduacauda	2
+Blackbirds (Icteridae)	Baltimore Oriole	Icterus galbula	1
+Blackbirds (Icteridae)	Scott's Oriole	Icterus parisorum	1
+Fringilline and Cardueline Finches and Allies (Fringillidae)	Common Chaffinch	Fringilla coelebs	4
+Fringilline and Cardueline Finches and Allies (Fringillidae)	Brambling	Fringilla montifringilla	3
+Fringilline and Cardueline Finches and Allies (Fringillidae)	Asian Rosy-Finch	Leucosticte arctoa	5
+Fringilline and Cardueline Finches and Allies (Fringillidae)	Gray-crowned Rosy-Finch	Leucosticte tephrocotis	1
+Fringilline and Cardueline Finches and Allies (Fringillidae)	Black Rosy-Finch	Leucosticte atrata	2
+Fringilline and Cardueline Finches and Allies (Fringillidae)	Brown-capped Rosy-Finch	Leucosticte australis	2
+Fringilline and Cardueline Finches and Allies (Fringillidae)	Pine Grosbeak	Pinicola enucleator	1
+Fringilline and Cardueline Finches and Allies (Fringillidae)	Eurasian Bullfinch	Pyrrhula pyrrhula	4
+Fringilline and Cardueline Finches and Allies (Fringillidae)	Common Rosefinch	Carpodacus erythrinus	4
+Fringilline and Cardueline Finches and Allies (Fringillidae)	House Finch	Haemorhous mexicanus	1
+Fringilline and Cardueline Finches and Allies (Fringillidae)	Purple Finch	Haemorhous purpureus	1
+Fringilline and Cardueline Finches and Allies (Fringillidae)	Cassin's Finch	Haemorhous cassinii	1
+Fringilline and Cardueline Finches and Allies (Fringillidae)	Red Crossbill	Loxia curvirostra	1
+Fringilline and Cardueline Finches and Allies (Fringillidae)	White-winged Crossbill	Loxia leucoptera	2
+Fringilline and Cardueline Finches and Allies (Fringillidae)	Common Redpoll	Acanthis flammea	1
+Fringilline and Cardueline Finches and Allies (Fringillidae)	Hoary Redpoll	Acanthis hornemanni	2
+Fringilline and Cardueline Finches and Allies (Fringillidae)	Eurasian Siskin	Spinus spinus	5
+Fringilline and Cardueline Finches and Allies (Fringillidae)	Pine Siskin	Spinus pinus	1
+Fringilline and Cardueline Finches and Allies (Fringillidae)	Lesser Goldfinch	Spinus psaltria	1
+Fringilline and Cardueline Finches and Allies (Fringillidae)	Lawrence's Goldfinch	Spinus lawrencei	2
+Fringilline and Cardueline Finches and Allies (Fringillidae)	American Goldfinch	Spinus tristis	1
+Fringilline and Cardueline Finches and Allies (Fringillidae)	Oriental Greenfinch	Chloris sinica	4
+Fringilline and Cardueline Finches and Allies (Fringillidae)	Evening Grosbeak	Coccothraustes vespertinus	1
+Fringilline and Cardueline Finches and Allies (Fringillidae)	Hawfinch	Coccothraustes coccothraustes	4
+Old World Sparrows (Passeridae)	House Sparrow	Passer domesticus	1
+Old World Sparrows (Passeridae)	Eurasian Tree Sparrow	Passer montanus	2
+Waxbills (Estrildidae)	Nutmeg Mannikin	Lonchura punctulata	2

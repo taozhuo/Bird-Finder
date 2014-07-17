@@ -12,6 +12,8 @@
 		7C1CEBE618BAAF790097251F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C1CEBE518BAAF790097251F /* CoreLocation.framework */; };
 		7C1CEBE918BAB77D0097251F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1CEBE818BAB77D0097251F /* FirstViewController.m */; };
 		7C1CEBEC18BAF25D0097251F /* BirdPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1CEBEB18BAF25D0097251F /* BirdPin.m */; };
+		7C37A5E3197772E100F2BDD2 /* acachecklist.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C37A5E2197772E100F2BDD2 /* acachecklist.txt */; };
+		7C37A5E6197774A300F2BDD2 /* BirdInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C37A5E5197774A300F2BDD2 /* BirdInfo.m */; };
 		7C802950191B370C00187475 /* Bird.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C80294F191B370C00187475 /* Bird.m */; };
 		7C802953191B37EC00187475 /* TaxonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C802952191B37EC00187475 /* TaxonViewController.m */; };
 		7CA9E6D91968FE0E008ED536 /* FlickrCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA9E6D81968FE0E008ED536 /* FlickrCell.m */; };
@@ -35,7 +37,6 @@
 		7CDBC7EE18B9B0AC00438A77 /* BirdResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CDBC7ED18B9B0AC00438A77 /* BirdResultCell.xib */; };
 		7CDBC7F118B9B5B400438A77 /* BirdResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDBC7F018B9B5B400438A77 /* BirdResultCell.m */; };
 		7CDBC7F818B9C87500438A77 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDBC7F718B9C87500438A77 /* MapKit.framework */; };
-		7CE30FAB196504C200C8F956 /* BirdInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE30FAA196504C200C8F956 /* BirdInfo.m */; };
 		7CE30FAD196510A100C8F956 /* BirdList.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7CE30FAC196510A100C8F956 /* BirdList.txt */; };
 		7CFE6E891967B6BA00C94789 /* Flickr.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFE6E861967B6BA00C94789 /* Flickr.m */; };
 		7CFE6E8A1967B6BA00C94789 /* FlickrPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFE6E881967B6BA00C94789 /* FlickrPhoto.m */; };
@@ -61,6 +62,9 @@
 		7C1CEBE818BAB77D0097251F /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		7C1CEBEA18BAF25D0097251F /* BirdPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirdPin.h; sourceTree = "<group>"; };
 		7C1CEBEB18BAF25D0097251F /* BirdPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirdPin.m; sourceTree = "<group>"; };
+		7C37A5E2197772E100F2BDD2 /* acachecklist.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = acachecklist.txt; sourceTree = "<group>"; };
+		7C37A5E4197774A300F2BDD2 /* BirdInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BirdInfo.h; path = ZTBird/BirdInfo.h; sourceTree = "<group>"; };
+		7C37A5E5197774A300F2BDD2 /* BirdInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BirdInfo.m; path = ZTBird/BirdInfo.m; sourceTree = "<group>"; };
 		7C80294E191B370C00187475 /* Bird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bird.h; sourceTree = "<group>"; };
 		7C80294F191B370C00187475 /* Bird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bird.m; sourceTree = "<group>"; };
 		7C802951191B37EC00187475 /* TaxonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaxonViewController.h; sourceTree = "<group>"; };
@@ -94,8 +98,6 @@
 		7CDBC7EF18B9B5B400438A77 /* BirdResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirdResultCell.h; sourceTree = "<group>"; };
 		7CDBC7F018B9B5B400438A77 /* BirdResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirdResultCell.m; sourceTree = "<group>"; };
 		7CDBC7F718B9C87500438A77 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		7CE30FA9196504C200C8F956 /* BirdInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirdInfo.h; sourceTree = "<group>"; };
-		7CE30FAA196504C200C8F956 /* BirdInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirdInfo.m; sourceTree = "<group>"; };
 		7CE30FAC196510A100C8F956 /* BirdList.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BirdList.txt; sourceTree = "<group>"; };
 		7CFE6E851967B6BA00C94789 /* Flickr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flickr.h; sourceTree = "<group>"; };
 		7CFE6E861967B6BA00C94789 /* Flickr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flickr.m; sourceTree = "<group>"; };
@@ -134,10 +136,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C37A5DE19724A8900F2BDD2 /* Model Class */ = {
+			isa = PBXGroup;
+			children = (
+				7C37A5E4197774A300F2BDD2 /* BirdInfo.h */,
+				7C37A5E5197774A300F2BDD2 /* BirdInfo.m */,
+			);
+			name = "Model Class";
+			sourceTree = "<group>";
+		};
+		7C37A5E019724B6500F2BDD2 /* Application Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				7CDBC7C418B9ADFE00438A77 /* AppDelegate.h */,
+				7CDBC7C518B9ADFE00438A77 /* AppDelegate.m */,
+			);
+			name = "Application Delegate";
+			path = ZTBird;
+			sourceTree = "<group>";
+		};
+		7C37A5E119724B8000F2BDD2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7CE30FAC196510A100C8F956 /* BirdList.txt */,
+				7C37A5E2197772E100F2BDD2 /* acachecklist.txt */,
+				7CDBC7BE18B9ADFE00438A77 /* InfoPlist.strings */,
+				7CC5042A195E8565006AF1C2 /* TaxonModel.xcdatamodeld */,
+				7CDBC7C718B9ADFE00438A77 /* Main.storyboard */,
+				7CDBC7CD18B9ADFE00438A77 /* Images.xcassets */,
+			);
+			name = Resources;
+			path = ZTBird;
+			sourceTree = "<group>";
+		};
 		7CDBC7A918B9ADFD00438A77 = {
 			isa = PBXGroup;
 			children = (
-				7CDBC7BB18B9ADFE00438A77 /* ZTBird */,
+				7C37A5E119724B8000F2BDD2 /* Resources */,
+				7C37A5E019724B6500F2BDD2 /* Application Delegate */,
+				7CDBC7BC18B9ADFE00438A77 /* Supporting Files */,
+				7C37A5DE19724A8900F2BDD2 /* Model Class */,
+				7CDBC7BB18B9ADFE00438A77 /* View Controllers */,
 				7CDBC7DA18B9ADFE00438A77 /* ZTBirdTests */,
 				7CDBC7B418B9ADFE00438A77 /* Frameworks */,
 				7CDBC7B318B9ADFE00438A77 /* Products */,
@@ -169,32 +208,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7CDBC7BB18B9ADFE00438A77 /* ZTBird */ = {
+		7CDBC7BB18B9ADFE00438A77 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				7CDBC7C418B9ADFE00438A77 /* AppDelegate.h */,
-				7CDBC7C518B9ADFE00438A77 /* AppDelegate.m */,
 				7CA9E6D71968FE0E008ED536 /* FlickrCell.h */,
 				7CA9E6D81968FE0E008ED536 /* FlickrCell.m */,
 				7CA9E6DA196E4141008ED536 /* FlickrLargeViewController.h */,
 				7CA9E6DB196E4141008ED536 /* FlickrLargeViewController.m */,
-				7CE30FAC196510A100C8F956 /* BirdList.txt */,
-				7CC5042A195E8565006AF1C2 /* TaxonModel.xcdatamodeld */,
-				7CE30FA9196504C200C8F956 /* BirdInfo.h */,
-				7CE30FAA196504C200C8F956 /* BirdInfo.m */,
 				7CFE6E8B1967B7F000C94789 /* BirdDetailViewController.h */,
 				7CFE6E8C1967B7F000C94789 /* BirdDetailViewController.m */,
-				7CDBC7C718B9ADFE00438A77 /* Main.storyboard */,
 				7CFE6E851967B6BA00C94789 /* Flickr.h */,
 				7CFE6E861967B6BA00C94789 /* Flickr.m */,
 				7CFE6E871967B6BA00C94789 /* FlickrPhoto.h */,
 				7CFE6E881967B6BA00C94789 /* FlickrPhoto.m */,
 				7C0CDE61196515C100F7CADF /* CatalogViewController.h */,
 				7C0CDE62196515C100F7CADF /* CatalogViewController.m */,
-				7CDBC7CD18B9ADFE00438A77 /* Images.xcassets */,
 				7CDBC7EA18B9AEB600438A77 /* NearbyViewController.h */,
 				7CDBC7EB18B9AEB600438A77 /* NearbyViewController.mm */,
-				7CDBC7BC18B9ADFE00438A77 /* Supporting Files */,
 				7CDBC7ED18B9B0AC00438A77 /* BirdResultCell.xib */,
 				7CDBC7EF18B9B5B400438A77 /* BirdResultCell.h */,
 				7CDBC7F018B9B5B400438A77 /* BirdResultCell.m */,
@@ -207,6 +237,7 @@
 				7C1CEBEA18BAF25D0097251F /* BirdPin.h */,
 				7C1CEBEB18BAF25D0097251F /* BirdPin.m */,
 			);
+			name = "View Controllers";
 			path = ZTBird;
 			sourceTree = "<group>";
 		};
@@ -214,11 +245,11 @@
 			isa = PBXGroup;
 			children = (
 				7CDBC7BD18B9ADFE00438A77 /* ZTBird-Info.plist */,
-				7CDBC7BE18B9ADFE00438A77 /* InfoPlist.strings */,
 				7CDBC7C118B9ADFE00438A77 /* main.m */,
 				7CDBC7C318B9ADFE00438A77 /* ZTBird-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = ZTBird;
 			sourceTree = "<group>";
 		};
 		7CDBC7DA18B9ADFE00438A77 /* ZTBirdTests */ = {
@@ -325,6 +356,7 @@
 				7CDBC7C018B9ADFE00438A77 /* InfoPlist.strings in Resources */,
 				7CDBC7C918B9ADFE00438A77 /* Main.storyboard in Resources */,
 				7CDBC7EE18B9B0AC00438A77 /* BirdResultCell.xib in Resources */,
+				7C37A5E3197772E100F2BDD2 /* acachecklist.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +410,7 @@
 			files = (
 				7CDBC7EC18B9AEB600438A77 /* NearbyViewController.mm in Sources */,
 				7C802953191B37EC00187475 /* TaxonViewController.m in Sources */,
+				7C37A5E6197774A300F2BDD2 /* BirdInfo.m in Sources */,
 				7CDBC7C618B9ADFE00438A77 /* AppDelegate.m in Sources */,
 				7C1CEBE918BAB77D0097251F /* FirstViewController.m in Sources */,
 				7C802950191B370C00187475 /* Bird.m in Sources */,
@@ -385,7 +418,6 @@
 				7CFE6E8D1967B7F000C94789 /* BirdDetailViewController.m in Sources */,
 				7CA9E6D91968FE0E008ED536 /* FlickrCell.m in Sources */,
 				7CDBC7C218B9ADFE00438A77 /* main.m in Sources */,
-				7CE30FAB196504C200C8F956 /* BirdInfo.m in Sources */,
 				7C1CEBEC18BAF25D0097251F /* BirdPin.m in Sources */,
 				7CA9E6DC196E4141008ED536 /* FlickrLargeViewController.m in Sources */,
 				7CFE6E8A1967B6BA00C94789 /* FlickrPhoto.m in Sources */,

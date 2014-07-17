@@ -79,7 +79,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zcp-ew-DUT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="505" y="-837"/>
+            <point key="canvasLocation" x="-495" y="-757"/>
         </scene>
         <!--Navigation Controller - Nearby-->
         <scene sceneID="KU2-u1-UWN">
@@ -98,7 +98,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PAH-uD-0zU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="82" y="527"/>
+            <point key="canvasLocation" x="-310" y="559"/>
         </scene>
         <!--View Controller - Favorite-->
         <scene sceneID="1xk-7r-G0b">
@@ -117,7 +117,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZMd-6q-MjG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1289" y="-207"/>
+            <point key="canvasLocation" x="465" y="-319"/>
         </scene>
         <!--First View Controller - Nearby-->
         <scene sceneID="PLJ-I9-TLO">
@@ -169,7 +169,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZKq-5v-5O6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="805" y="577"/>
+            <point key="canvasLocation" x="621" y="559"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="4GW-Ue-pnQ">
@@ -190,7 +190,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WPQ-Mm-30G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-862" y="35"/>
+            <point key="canvasLocation" x="-1630" y="363"/>
         </scene>
         <!--Catalog View Controller-->
         <scene sceneID="uxC-wa-MiP">
@@ -236,7 +236,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BRM-xS-7QL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="231" y="1543"/>
+            <point key="canvasLocation" x="-473" y="1959"/>
         </scene>
         <!--Flickr Large View Controller-->
         <scene sceneID="PMZ-3P-ecF">
@@ -274,7 +274,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eNB-yO-jMD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-251" y="2630"/>
+            <point key="canvasLocation" x="1373" y="1990"/>
         </scene>
         <!--Bird Detail View Controller-->
         <scene sceneID="wDl-Qq-ime">
@@ -343,7 +343,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xK3-Y4-l4Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="911" y="1535"/>
+            <point key="canvasLocation" x="343" y="1983"/>
         </scene>
         <!--Navigation Controller - All Birds-->
         <scene sceneID="p4P-RZ-Vvu">
@@ -362,7 +362,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ozU-WO-2P5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-439" y="1519"/>
+            <point key="canvasLocation" x="-1239" y="1943"/>
         </scene>
     </scenes>
     <resources>
