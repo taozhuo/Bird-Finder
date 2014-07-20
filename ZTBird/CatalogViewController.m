@@ -19,9 +19,7 @@
 #pragma mark -
 
 @implementation CatalogViewController
-{
-    NSArray *_birds;
-}
+
 
 #pragma mark - View lifecycle
 
@@ -141,8 +139,9 @@
     if ([[segue identifier] isEqualToString:@"RevealDetail"]) {
         BirdDetailViewController *detailViewController = (BirdDetailViewController*)[segue destinationViewController];
         NSIndexPath *path = [self.tableView indexPathForSelectedRow];
-        BirdInfo *info = _birds[path.row];
+        BirdInfo *info = (BirdInfo *)[self.fetchedResultsController objectAtIndexPath:path];
         detailViewController.birdName = info.com_name;
+        NSLog(@"%@", info.com_name);
     }
 }
 

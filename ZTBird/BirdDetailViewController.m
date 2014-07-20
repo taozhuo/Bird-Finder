@@ -12,8 +12,6 @@
 #import "FlickrCell.h"
 #import "FlickrLargeViewController.h"
 
-#define kFlickrAPIKey @"97bf61b0cb5de432ad70112467e1d734";
-
 @interface BirdDetailViewController () <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 
 @property (nonatomic, strong) NSArray *flickrResults;
@@ -23,34 +21,59 @@
 @end
 
 @implementation BirdDetailViewController
+{
+    NSArray *_photos;
+    NSOperationQueue *_queue;
+
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) { 
-       
+        if (self) {
+        }
     }
     return self;
 }
+
+- (id)initWithCoder:(NSCoder *)aDecoder
+{
+    self = [super initWithCoder:aDecoder];
+    if (self) {
+        _queue = [[NSOperationQueue alloc] init];
+    }
+    return self;
+}
+
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     self.nameLabel.text = self.birdName;
-    self.flickrResults = [@{} mutableCopy];
-    self.flickr = [[Flickr alloc] init];
     
-    [self.flickr searchFlickrForTerm:self.birdName completionBlock:^(NSString *searchTerm, NSArray *results, NSError *error) {
-        if(results && [results count] > 0) {
-            self.flickrResults = results;
-            NSLog(@"Found %d images", [results count]);
-            dispatch_async(dispatch_get_main_queue(), ^{
-                [self.collectionView reloadData];
-            });
-            
-        } else {
-            NSLog(@"Error searching Flickr: %@", error.localizedDescription);
-        } }];
+    //loading pictures array
+    NSString *escapedSearchText = [self.birdName stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    NSString *urlString = [NSString stringWithFormat:kFlickrUrl, escapedSearchText];
+    
+    NSURL *url = [NSURL URLWithString:urlString];
+    NSLog(@"%@",urlString);
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:request];
+    
+    operation.responseSerializer = [AFJSONResponseSerializer serializer];
+    
+    [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
+        _photos = [[responseObject objectForKey:@"photos"] objectForKey:@"photo"];
+        NSLog(@"found %d photoes!", [_photos count]);
+        [self.collectionView reloadData];
+    }  failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        NSLog(@"Failed! %@", error);
+    }];
+    
+    [_queue addOperation:operation];
+
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -63,7 +86,7 @@
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return [self.flickrResults count];
+    return [_photos count];
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
@@ -71,8 +94,34 @@
     FlickrCell *cell = (FlickrCell *)[collectionView
                                   dequeueReusableCellWithReuseIdentifier:@"FlickrCell"forIndexPath:indexPath];
     //cell.backgroundColor = [UIColor whiteColor];
-    FlickrPhoto *photo = (FlickrPhoto*)self.flickrResults[indexPath.row];
-    cell.imageView.image = photo.thumbnail;
+    
+    //load thumbnail picture for cell
+    NSDictionary *photo = _photos[indexPath.row];
+    
+    NSString *photoURLString =
+    [NSString stringWithFormat: kFlickrSinglePicThumbNailUrl,
+     [photo objectForKey:@"farm"], [photo objectForKey:@"server"],
+     [photo objectForKey:@"id"], [photo objectForKey:@"secret"]];
+    
+    NSURL *imageURL = [NSURL URLWithString:photoURLString];
+    NSURLRequest *imageRequst = [NSURLRequest requestWithURL:imageURL];
+
+    [cell.imageView setImageWithURLRequest:imageRequst placeholderImage:[UIImage imageNamed:@"Placeholder"] success:^(NSURLRequest *request, NSHTTPURLResponse *response, UIImage *image) {
+        
+        CGSize size = CGSizeMake(100, 100);
+        UIGraphicsBeginImageContext(size);
+        [image drawInRect:CGRectMake(0, 0, size.width, size.height)];
+        UIImage *newImage = UIGraphicsGetImageFromCurrentImageContext();
+        cell.imageView.image = newImage;
+        UIGraphicsEndImageContext();
+        //self.hasLoaded = YES;
+        
+    } failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error) {
+    }];
+    
+    
+    //FlickrPhoto *photo = (FlickrPhoto*)self.flickrResults[indexPath.row];
+    //cell.imageView.image = photo.thumbnail;
     return cell;
 }
 
@@ -80,9 +129,9 @@
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    FlickrPhoto *photo = (FlickrPhoto*)self.flickrResults[indexPath.row];
-    [self performSegueWithIdentifier:@"ShowLargePhoto" sender:photo];
-    [self.collectionView deselectItemAtIndexPath:indexPath animated:YES];
+    //FlickrPhoto *photo = (FlickrPhoto*)self.flickrResults[indexPath.row];
+    //[self performSegueWithIdentifier:@"ShowLargePhoto" sender:photo];
+    //[self.collectionView deselectItemAtIndexPath:indexPath animated:YES];
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender

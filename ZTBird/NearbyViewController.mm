@@ -77,7 +77,7 @@ using namespace std;
     double latitude = self.coordinate.latitude;
     double longitude = self.coordinate.longitude;
     NSString *urlString =[NSString
-        stringWithFormat:@"http://ebird.org/ws1.1/data/obs/geo/recent?lng=%f&lat=%f&dist=2&back=5&maxResults=500&locale=en_US&fmt=json",longitude,latitude];
+        stringWithFormat:kEbirdUrlRecentObserv,longitude,latitude];
     NSURL *url = [NSURL URLWithString:urlString];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:request];
@@ -92,7 +92,7 @@ using namespace std;
             [self.tableView reloadData];
             [_mapView addAnnotations:_birdPins];
             
-            //[self loadBirdImageDict];
+            [self loadBirdImageDict];
         }
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         NSLog(@"Failed! %@", error);
@@ -118,7 +118,7 @@ using namespace std;
 {
     for (NSDictionary *dict in _birdArray) {
         NSString *escapedSearchText = [dict[@"comName"] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-        NSString *urlString = [NSString stringWithFormat:@"https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=0a29aa6f6089fd1b4917747511bdbb6d&tags=%@&format=json&nojsoncallback=1",escapedSearchText];
+        NSString *urlString = [NSString stringWithFormat:kFlickrUrl,escapedSearchText];
         
         NSURL *url = [NSURL URLWithString:urlString];
         NSURLRequest *request = [NSURLRequest requestWithURL:url];
@@ -130,7 +130,7 @@ using namespace std;
             NSArray *photos = [[responseObject objectForKey:@"photos"] objectForKey:@"photo"];
             NSDictionary *photo = photos[0];
             NSString *photoURLString =
-            [NSString stringWithFormat:@"http://farm%@.static.flickr.com/%@/%@_%@_s.jpg",
+            [NSString stringWithFormat:kFlickrSinglePicThumbNailUrl,
              [photo objectForKey:@"farm"], [photo objectForKey:@"server"],
              [photo objectForKey:@"id"], [photo objectForKey:@"secret"]];
             

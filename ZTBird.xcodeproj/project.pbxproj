@@ -14,6 +14,7 @@
 		7C1CEBEC18BAF25D0097251F /* BirdPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1CEBEB18BAF25D0097251F /* BirdPin.m */; };
 		7C37A5E3197772E100F2BDD2 /* acachecklist.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C37A5E2197772E100F2BDD2 /* acachecklist.txt */; };
 		7C37A5E6197774A300F2BDD2 /* BirdInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C37A5E5197774A300F2BDD2 /* BirdInfo.m */; };
+		7C438DC9197C6EB70055AE5F /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C438DC8197C6EB70055AE5F /* Constants.m */; };
 		7C802950191B370C00187475 /* Bird.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C80294F191B370C00187475 /* Bird.m */; };
 		7C802953191B37EC00187475 /* TaxonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C802952191B37EC00187475 /* TaxonViewController.m */; };
 		7CA9E6D91968FE0E008ED536 /* FlickrCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA9E6D81968FE0E008ED536 /* FlickrCell.m */; };
@@ -65,6 +66,8 @@
 		7C37A5E2197772E100F2BDD2 /* acachecklist.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = acachecklist.txt; sourceTree = "<group>"; };
 		7C37A5E4197774A300F2BDD2 /* BirdInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BirdInfo.h; path = ZTBird/BirdInfo.h; sourceTree = "<group>"; };
 		7C37A5E5197774A300F2BDD2 /* BirdInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BirdInfo.m; path = ZTBird/BirdInfo.m; sourceTree = "<group>"; };
+		7C438DC7197C6EA70055AE5F /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = ../Constants.h; sourceTree = "<group>"; };
+		7C438DC8197C6EB70055AE5F /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Constants.m; path = ../Constants.m; sourceTree = "<group>"; };
 		7C80294E191B370C00187475 /* Bird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bird.h; sourceTree = "<group>"; };
 		7C80294F191B370C00187475 /* Bird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bird.m; sourceTree = "<group>"; };
 		7C802951191B37EC00187475 /* TaxonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaxonViewController.h; sourceTree = "<group>"; };
@@ -158,6 +161,8 @@
 		7C37A5E119724B8000F2BDD2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7C438DC8197C6EB70055AE5F /* Constants.m */,
+				7C438DC7197C6EA70055AE5F /* Constants.h */,
 				7CE30FAC196510A100C8F956 /* BirdList.txt */,
 				7C37A5E2197772E100F2BDD2 /* acachecklist.txt */,
 				7CDBC7BE18B9ADFE00438A77 /* InfoPlist.strings */,
@@ -416,6 +421,7 @@
 				7C802950191B370C00187475 /* Bird.m in Sources */,
 				7C0CDE63196515C100F7CADF /* CatalogViewController.m in Sources */,
 				7CFE6E8D1967B7F000C94789 /* BirdDetailViewController.m in Sources */,
+				7C438DC9197C6EB70055AE5F /* Constants.m in Sources */,
 				7CA9E6D91968FE0E008ED536 /* FlickrCell.m in Sources */,
 				7CDBC7C218B9ADFE00438A77 /* main.m in Sources */,
 				7C1CEBEC18BAF25D0097251F /* BirdPin.m in Sources */,
