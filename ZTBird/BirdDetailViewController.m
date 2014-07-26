@@ -7,15 +7,12 @@
 //
 
 #import "BirdDetailViewController.h"
-#import "Flickr.h"
-#import "FlickrPhoto.h"
 #import "FlickrCell.h"
 #import "FlickrLargeViewController.h"
 
 @interface BirdDetailViewController () <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 
 @property (nonatomic, strong) NSArray *flickrResults;
-@property (nonatomic, strong) Flickr *flickr;
 @property (nonatomic, weak) IBOutlet UICollectionView *collectionView;
 
 @end

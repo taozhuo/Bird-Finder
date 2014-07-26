@@ -12,6 +12,8 @@
 		7C1CEBE618BAAF790097251F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C1CEBE518BAAF790097251F /* CoreLocation.framework */; };
 		7C1CEBE918BAB77D0097251F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1CEBE818BAB77D0097251F /* FirstViewController.m */; };
 		7C1CEBEC18BAF25D0097251F /* BirdPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1CEBEB18BAF25D0097251F /* BirdPin.m */; };
+		7C267537198420CD00DD1966 /* HotspotResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C267535198420CD00DD1966 /* HotspotResultCell.m */; };
+		7C267538198420CD00DD1966 /* HotspotResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C267536198420CD00DD1966 /* HotspotResultCell.xib */; };
 		7C37A5E3197772E100F2BDD2 /* acachecklist.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C37A5E2197772E100F2BDD2 /* acachecklist.txt */; };
 		7C37A5E6197774A300F2BDD2 /* BirdInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C37A5E5197774A300F2BDD2 /* BirdInfo.m */; };
 		7C438DC9197C6EB70055AE5F /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C438DC8197C6EB70055AE5F /* Constants.m */; };
@@ -63,6 +65,9 @@
 		7C1CEBE818BAB77D0097251F /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		7C1CEBEA18BAF25D0097251F /* BirdPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirdPin.h; sourceTree = "<group>"; };
 		7C1CEBEB18BAF25D0097251F /* BirdPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirdPin.m; sourceTree = "<group>"; };
+		7C267534198420CD00DD1966 /* HotspotResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotspotResultCell.h; sourceTree = "<group>"; };
+		7C267535198420CD00DD1966 /* HotspotResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotspotResultCell.m; sourceTree = "<group>"; };
+		7C267536198420CD00DD1966 /* HotspotResultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HotspotResultCell.xib; sourceTree = "<group>"; };
 		7C37A5E2197772E100F2BDD2 /* acachecklist.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = acachecklist.txt; sourceTree = "<group>"; };
 		7C37A5E4197774A300F2BDD2 /* BirdInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BirdInfo.h; path = ZTBird/BirdInfo.h; sourceTree = "<group>"; };
 		7C37A5E5197774A300F2BDD2 /* BirdInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BirdInfo.m; path = ZTBird/BirdInfo.m; sourceTree = "<group>"; };
@@ -139,6 +144,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C2675391984211C00DD1966 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7CDBC7EF18B9B5B400438A77 /* BirdResultCell.h */,
+				7CDBC7F018B9B5B400438A77 /* BirdResultCell.m */,
+				7C267534198420CD00DD1966 /* HotspotResultCell.h */,
+				7C267535198420CD00DD1966 /* HotspotResultCell.m */,
+				7CDBC7ED18B9B0AC00438A77 /* BirdResultCell.xib */,
+				7C267536198420CD00DD1966 /* HotspotResultCell.xib */,
+			);
+			name = Views;
+			path = ZTBird;
+			sourceTree = "<group>";
+		};
 		7C37A5DE19724A8900F2BDD2 /* Model Class */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +196,7 @@
 		7CDBC7A918B9ADFD00438A77 = {
 			isa = PBXGroup;
 			children = (
+				7C2675391984211C00DD1966 /* Views */,
 				7C37A5E119724B8000F2BDD2 /* Resources */,
 				7C37A5E019724B6500F2BDD2 /* Application Delegate */,
 				7CDBC7BC18B9ADFE00438A77 /* Supporting Files */,
@@ -230,9 +250,6 @@
 				7C0CDE62196515C100F7CADF /* CatalogViewController.m */,
 				7CDBC7EA18B9AEB600438A77 /* NearbyViewController.h */,
 				7CDBC7EB18B9AEB600438A77 /* NearbyViewController.mm */,
-				7CDBC7ED18B9B0AC00438A77 /* BirdResultCell.xib */,
-				7CDBC7EF18B9B5B400438A77 /* BirdResultCell.h */,
-				7CDBC7F018B9B5B400438A77 /* BirdResultCell.m */,
 				7C80294E191B370C00187475 /* Bird.h */,
 				7C80294F191B370C00187475 /* Bird.m */,
 				7C802951191B37EC00187475 /* TaxonViewController.h */,
@@ -359,6 +376,7 @@
 				7CDBC7CE18B9ADFE00438A77 /* Images.xcassets in Resources */,
 				7CE30FAD196510A100C8F956 /* BirdList.txt in Resources */,
 				7CDBC7C018B9ADFE00438A77 /* InfoPlist.strings in Resources */,
+				7C267538198420CD00DD1966 /* HotspotResultCell.xib in Resources */,
 				7CDBC7C918B9ADFE00438A77 /* Main.storyboard in Resources */,
 				7CDBC7EE18B9B0AC00438A77 /* BirdResultCell.xib in Resources */,
 				7C37A5E3197772E100F2BDD2 /* acachecklist.txt in Resources */,
@@ -427,6 +445,7 @@
 				7C1CEBEC18BAF25D0097251F /* BirdPin.m in Sources */,
 				7CA9E6DC196E4141008ED536 /* FlickrLargeViewController.m in Sources */,
 				7CFE6E8A1967B6BA00C94789 /* FlickrPhoto.m in Sources */,
+				7C267537198420CD00DD1966 /* HotspotResultCell.m in Sources */,
 				7CC5042C195E8565006AF1C2 /* TaxonModel.xcdatamodeld in Sources */,
 				7CFE6E891967B6BA00C94789 /* Flickr.m in Sources */,
 				7CDBC7F118B9B5B400438A77 /* BirdResultCell.m in Sources */,
@@ -555,12 +574,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhuo Tao (56735E859E)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZTBird/ZTBird-Prefix.pch";
 				INFOPLIST_FILE = "ZTBird/ZTBird-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -573,12 +592,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhuo Tao (56735E859E)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZTBird/ZTBird-Prefix.pch";
 				INFOPLIST_FILE = "ZTBird/ZTBird-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;

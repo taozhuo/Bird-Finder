@@ -113,6 +113,11 @@
     if ([segue.identifier isEqualToString:@"FindBirds"]) {
         NearbyViewController *controller = segue.destinationViewController;
         controller.coordinate = _currentLocation.coordinate;
+        controller.task = @"FindBirds";
+    } else if ([segue.identifier isEqualToString:@"FindHotspots"]) {
+        NearbyViewController *controller = segue.destinationViewController;
+        controller.coordinate = _currentLocation.coordinate;
+        controller.task = @"FindHotspots";
     }
 }
 

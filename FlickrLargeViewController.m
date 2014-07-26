@@ -9,8 +9,6 @@
 #import "FlickrLargeViewController.h"
 #import "Flickr.h"
 #import "FlickrPhoto.h"
-#import <AFNetworking/AFNetworking.h>
-
 
 @interface FlickrLargeViewController ()
 @property (nonatomic,weak) IBOutlet UIImageView *imageView;

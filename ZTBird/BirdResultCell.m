@@ -7,8 +7,6 @@
 //
 
 #import "BirdResultCell.h"
-#import <AFNetworking/AFNetworking.h>
-#import <AFNetworking/UIImageView+AFNetworking.h>
 
 @implementation BirdResultCell
 {

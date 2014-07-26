@@ -1,67 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="jbz-et-TZg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="jbz-et-TZg">
     <dependencies>
         <deployment defaultVersion="1792" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--Nearby View Controller - Birds-->
-        <scene sceneID="QG1-iJ-hgo">
-            <objects>
-                <viewController id="1Ln-LF-YRe" customClass="NearbyViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="GTB-nS-ZTK"/>
-                        <viewControllerLayoutGuide type="bottom" id="aSY-ln-761"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="k8c-Mo-lP4">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" keyboardDismissMode="interactive" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="8q9-Ms-1vO">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <connections>
-                                    <outlet property="dataSource" destination="1Ln-LF-YRe" id="c6f-ra-Jxv"/>
-                                    <outlet property="delegate" destination="1Ln-LF-YRe" id="evy-68-8eP"/>
-                                </connections>
-                            </tableView>
-                            <searchBar contentMode="redraw" fixedFrame="YES" placeholder="search" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TjA-Zu-f5m">
-                                <rect key="frame" x="0.0" y="64" width="252" height="44"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <scopeButtonTitles>
-                                    <string>Title</string>
-                                    <string>Title</string>
-                                </scopeButtonTitles>
-                                <connections>
-                                    <outlet property="delegate" destination="1Ln-LF-YRe" id="K7o-Ux-P21"/>
-                                </connections>
-                            </searchBar>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="I8w-5F-XWK">
-                                <rect key="frame" x="257" y="72" width="58" height="29"/>
-                                <segments>
-                                    <segment title=""/>
-                                    <segment title=""/>
-                                </segments>
-                                <connections>
-                                    <action selector="segmentChanged:" destination="1Ln-LF-YRe" eventType="valueChanged" id="Uff-65-ile"/>
-                                </connections>
-                            </segmentedControl>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Birds" id="bpG-9X-wVl"/>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                    <connections>
-                        <outlet property="searchBar" destination="TjA-Zu-f5m" id="MnZ-qq-xfg"/>
-                        <outlet property="segmentedControl" destination="I8w-5F-XWK" id="aNs-HX-BPp"/>
-                        <outlet property="tableView" destination="8q9-Ms-1vO" id="5Z9-KJ-ylj"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4KP-9r-Nx7" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1482" y="619"/>
-        </scene>
         <!--View Controller - Report-->
         <scene sceneID="uMc-cG-nfg">
             <objects>
@@ -137,7 +80,7 @@
                                 <connections>
                                     <action selector="birdsButtonClicked:" destination="V7I-Oq-ueH" eventType="touchDown" id="VpE-pG-OS8"/>
                                     <action selector="birdsButtonReleased:" destination="V7I-Oq-ueH" eventType="touchUpInside" id="8jL-sl-o3h"/>
-                                    <segue destination="1Ln-LF-YRe" kind="push" identifier="FindBirds" id="zkH-Bt-E5W"/>
+                                    <segue destination="yot-ge-QXV" kind="push" identifier="FindBirds" id="Egc-Cc-10m"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JQb-Jv-UZ4">
@@ -148,6 +91,7 @@
                                 <connections>
                                     <action selector="hotspotsButtonClicked:" destination="V7I-Oq-ueH" eventType="touchDown" id="7wE-bU-LqD"/>
                                     <action selector="hotspotsButtonReleased:" destination="V7I-Oq-ueH" eventType="touchUpInside" id="iPs-2i-gcD"/>
+                                    <segue destination="yot-ge-QXV" kind="push" identifier="FindHotspots" id="a8P-0Z-97t"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Address" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="292" translatesAutoresizingMaskIntoConstraints="NO" id="IlG-mM-Lc5">
@@ -364,6 +308,64 @@
             </objects>
             <point key="canvasLocation" x="-1239" y="1943"/>
         </scene>
+        <!--Nearby View Controller - Birds-->
+        <scene sceneID="4aF-66-Fpp">
+            <objects>
+                <viewController id="yot-ge-QXV" customClass="NearbyViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eH8-9U-zeN"/>
+                        <viewControllerLayoutGuide type="bottom" id="u5M-hQ-0lD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4NX-sf-W3W">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" keyboardDismissMode="interactive" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="r6c-Fn-saa">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="yot-ge-QXV" id="KL2-ae-Ff9"/>
+                                    <outlet property="delegate" destination="yot-ge-QXV" id="n0X-kK-w7L"/>
+                                </connections>
+                            </tableView>
+                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NJg-Fa-gRm">
+                                <rect key="frame" x="0.0" y="63" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="yot-ge-QXV" id="SXh-UJ-kOX"/>
+                                </connections>
+                            </searchBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Birds" id="iar-pG-aR4">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="R49-W2-PC5">
+                            <segmentedControl key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="2TZ-Hm-Qhm">
+                                <rect key="frame" x="233" y="7" width="71" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title=""/>
+                                    <segment title=""/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentChanged:" destination="yot-ge-QXV" eventType="valueChanged" id="x41-fL-SKV"/>
+                                </connections>
+                            </segmentedControl>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="searchBar" destination="NJg-Fa-gRm" id="LRL-ha-hl1"/>
+                        <outlet property="segmentedControl" destination="2TZ-Hm-Qhm" id="Xbv-1S-Xyy"/>
+                        <outlet property="tableView" destination="r6c-Fn-saa" id="WwD-c2-xsW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xt3-6q-aSJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1082" y="445"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Placeholder" width="60" height="60"/>
@@ -373,4 +375,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="a8P-0Z-97t"/>
+    </inferredMetricsTieBreakers>
 </document>

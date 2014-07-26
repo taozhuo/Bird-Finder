@@ -12,5 +12,6 @@
 @interface NearbyViewController : UIViewController
 
 @property (nonatomic, assign) CLLocationCoordinate2D coordinate;
+@property (nonatomic, assign) NSString *task;
 
 @end
