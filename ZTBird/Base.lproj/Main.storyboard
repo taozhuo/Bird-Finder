@@ -293,7 +293,7 @@
         <scene sceneID="p4P-RZ-Vvu">
             <objects>
                 <navigationController title="All Birds" automaticallyAdjustsScrollViewInsets="NO" id="PHv-9Z-cYR" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Catalog" id="gFs-g1-iea"/>
+                    <tabBarItem key="tabBarItem" title="Species" id="gFs-g1-iea"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="kfa-Su-sSd">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>

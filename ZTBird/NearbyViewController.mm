@@ -9,8 +9,8 @@
 #import "NearbyViewController.h"
 #import "BirdResultCell.h"
 #import "HotspotResultCell.h"
-#import <MapKit/MapKit.h>
 #import "BirdPin.h"
+#import "HotspotPin.h"
 
 @interface NearbyViewController () <UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate, MKMapViewDelegate>
 
@@ -31,6 +31,7 @@
     NSMutableDictionary *_birdImageDict;
     BOOL _isArrayLoaded;
     NSMutableArray *_birdPins;
+    NSMutableArray *_hotspotPins;
     BOOL _isRegionSet;
     BOOL _didSearch;
 }
@@ -112,11 +113,10 @@
         } else if ([self.task isEqualToString:@"FindHotspots"]) {
             _hotspotArray = (NSArray *)responseObject;
             if ([_hotspotArray count] > 0) {
-                //[self buildHotspotPins];
-                NSLog(@"Found %d hotspots!", [_hotspotArray count]);
+                [self buildHotspotPins];
                 _isArrayLoaded = YES;
                 [self.tableView reloadData];
-                //[_mapView addAnnotation:_hotspotPins];
+                [_mapView addAnnotations:_hotspotPins];
             }
         }
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
@@ -132,11 +132,23 @@
     for (NSDictionary *dict in _birdArray) {
         CLLocationCoordinate2D newCoordinate = CLLocationCoordinate2DMake([dict[@"lat"] doubleValue],
                                                                           [dict[@"lng"] doubleValue]);
-        NSLog(@"lat: %.3f, lng: %.3f", newCoordinate.latitude, newCoordinate.longitude);
         BirdPin *newPin = [[BirdPin alloc] initWithCoordinate:newCoordinate title:dict[@"comName"] subtitle:dict[@"locName"]];
         [_birdPins addObject:newPin];
     }
         
+}
+
+- (void)buildHotspotPins
+{
+    if (_hotspotPins == nil) _hotspotPins = [[NSMutableArray alloc] initWithCapacity:[_hotspotArray count]];
+    [_hotspotPins removeAllObjects];
+    for (NSDictionary *dict in _hotspotArray) {
+        CLLocationCoordinate2D newCoordinate = CLLocationCoordinate2DMake([dict[@"lat"] doubleValue],
+                                                                          [dict[@"lng"] doubleValue]);
+        HotspotPin *newPin = [[HotspotPin alloc] initWithCoordinate:newCoordinate title:dict[@"locName"] subtitle:nil];
+        [_hotspotPins addObject:newPin];
+        
+    }
 }
 
 - (void)loadBirdImageDict
@@ -260,7 +272,7 @@
 - (void)mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation
 {
     MKCoordinateRegion region =
-        MKCoordinateRegionMakeWithDistance(mapView.userLocation.coordinate, 3000, 3000);
+        MKCoordinateRegionMakeWithDistance(mapView.userLocation.coordinate, 10000, 10000);
     
     if (!_isRegionSet) {
         [mapView setRegion:[mapView regionThatFits:region] animated:YES];

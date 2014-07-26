@@ -14,6 +14,7 @@
 		7C1CEBEC18BAF25D0097251F /* BirdPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1CEBEB18BAF25D0097251F /* BirdPin.m */; };
 		7C267537198420CD00DD1966 /* HotspotResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C267535198420CD00DD1966 /* HotspotResultCell.m */; };
 		7C267538198420CD00DD1966 /* HotspotResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C267536198420CD00DD1966 /* HotspotResultCell.xib */; };
+		7C26753C19844AB700DD1966 /* HotspotPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C26753B19844AB700DD1966 /* HotspotPin.m */; };
 		7C37A5E3197772E100F2BDD2 /* acachecklist.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C37A5E2197772E100F2BDD2 /* acachecklist.txt */; };
 		7C37A5E6197774A300F2BDD2 /* BirdInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C37A5E5197774A300F2BDD2 /* BirdInfo.m */; };
 		7C438DC9197C6EB70055AE5F /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C438DC8197C6EB70055AE5F /* Constants.m */; };
@@ -68,6 +69,8 @@
 		7C267534198420CD00DD1966 /* HotspotResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotspotResultCell.h; sourceTree = "<group>"; };
 		7C267535198420CD00DD1966 /* HotspotResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotspotResultCell.m; sourceTree = "<group>"; };
 		7C267536198420CD00DD1966 /* HotspotResultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HotspotResultCell.xib; sourceTree = "<group>"; };
+		7C26753A19844AB700DD1966 /* HotspotPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotspotPin.h; sourceTree = "<group>"; };
+		7C26753B19844AB700DD1966 /* HotspotPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotspotPin.m; sourceTree = "<group>"; };
 		7C37A5E2197772E100F2BDD2 /* acachecklist.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = acachecklist.txt; sourceTree = "<group>"; };
 		7C37A5E4197774A300F2BDD2 /* BirdInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BirdInfo.h; path = ZTBird/BirdInfo.h; sourceTree = "<group>"; };
 		7C37A5E5197774A300F2BDD2 /* BirdInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BirdInfo.m; path = ZTBird/BirdInfo.m; sourceTree = "<group>"; };
@@ -258,6 +261,8 @@
 				7C1CEBE818BAB77D0097251F /* FirstViewController.m */,
 				7C1CEBEA18BAF25D0097251F /* BirdPin.h */,
 				7C1CEBEB18BAF25D0097251F /* BirdPin.m */,
+				7C26753A19844AB700DD1966 /* HotspotPin.h */,
+				7C26753B19844AB700DD1966 /* HotspotPin.m */,
 			);
 			name = "View Controllers";
 			path = ZTBird;
@@ -438,6 +443,7 @@
 				7C1CEBE918BAB77D0097251F /* FirstViewController.m in Sources */,
 				7C802950191B370C00187475 /* Bird.m in Sources */,
 				7C0CDE63196515C100F7CADF /* CatalogViewController.m in Sources */,
+				7C26753C19844AB700DD1966 /* HotspotPin.m in Sources */,
 				7CFE6E8D1967B7F000C94789 /* BirdDetailViewController.m in Sources */,
 				7C438DC9197C6EB70055AE5F /* Constants.m in Sources */,
 				7CA9E6D91968FE0E008ED536 /* FlickrCell.m in Sources */,

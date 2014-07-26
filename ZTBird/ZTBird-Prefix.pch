@@ -17,4 +17,5 @@
     #import "Constants.h"
     #import <AFNetworking/AFNetworking.h>
     #import <AFNetworking/UIImageView+AFNetworking.h>
+    #import <MapKit/MapKit.h>
 #endif
