@@ -8,12 +8,19 @@
 
 #import "AppDelegate.h"
 #import "BirdInfo.h"
-#import "CatalogViewController.h"
+#import "BirdImage.h"
+#import "SpeciesViewController.h"
+#import "FavoritesViewController.h"
+#import "FirstViewController.h"
+#import "AFNetworkActivityIndicatorManager.h"
+#import "NearbyViewController.h"
+
 
 @interface AppDelegate ()   //class extension
 @property (nonatomic, strong) NSManagedObjectContext *managedObjectContext;
 @property (nonatomic, strong) NSManagedObjectModel *managedObjectModel;
 @property (nonatomic, strong) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+@property (nonatomic, strong) NSArray *fetchedObjects;
 @end
 
 @implementation AppDelegate
@@ -22,43 +29,60 @@
 {
     //[self preloadData];   //preload birds info into core data
     UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
-    UINavigationController *naviController = (UINavigationController *)tabBarController.viewControllers[3];
-    CatalogViewController *catalogViewController = (CatalogViewController *)[naviController topViewController];
     
+    //pass managed context to first view controller
+    UINavigationController *naviController = (UINavigationController *)tabBarController.viewControllers[0];
+    FirstViewController *firstViewController = (FirstViewController *)[naviController topViewController];
+    firstViewController.managedOjbectContext = self.managedObjectContext;
+    
+    //pass managed context to nearby view controller
+    naviController = (UINavigationController *)tabBarController.viewControllers[1];
+    NearbyViewController *nearbyController = (NearbyViewController *)[naviController topViewController];
+    nearbyController.managedOjbectContext = self.managedObjectContext;
+    
+    //pass managed context to species view controller
+    naviController = (UINavigationController *)tabBarController.viewControllers[2];
+    SpeciesViewController *catalogViewController = (SpeciesViewController *)[naviController topViewController];
     catalogViewController.managedOjbectContext = self.managedObjectContext;
+    
+    //pass managed context to favorite view controller
+    naviController = (UINavigationController *)tabBarController.viewControllers[3];
+    FavoritesViewController *favoriteViewcontroller = (FavoritesViewController *)[naviController topViewController];
+    favoriteViewcontroller.managedOjbectContext = self.managedObjectContext;
+    
+    UIColor* navColor = [UIColor colorWithRed:0.175f green:0.458f blue:0.831f alpha:1.0f];
+    [[UINavigationBar appearance] setBarTintColor:navColor];
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName: [UIColor whiteColor]}];
+    
+    //UIColor *barColor = [UIColor colorWithRed:0.012 green:0.286 blue:0.553 alpha:1.0];
+    [tabBarController.tabBar setTintColor:navColor];
+    
+    //[self preLoadSpecies];
+    
+    [AFNetworkActivityIndicatorManager sharedManager].enabled = YES;
+    
+    //set tab bar item selected images;
+    NSArray *array = tabBarController.tabBar.items;
+    ((UITabBarItem *)array[2]).selectedImage = [UIImage imageNamed:@"Pelican Filled"];
+    ((UITabBarItem *)array[0]).selectedImage = [UIImage imageNamed:@"Log Cabin Filled"];
+    ((UITabBarItem *)array[1]).selectedImage = [UIImage imageNamed:@"Binoculars Filled"];
+    ((UITabBarItem *)array[3]).selectedImage = [UIImage imageNamed:@"Like Filled"];
+
     return YES;
 }
-							
-- (void)applicationWillResignActive:(UIApplication *)application
-{
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
+
+- (void)applicationWillTerminate:(UIApplication *)application {
+    NSError *error;
+    if (self.managedObjectContext != nil) {
+        if ([self.managedObjectContext hasChanges] && ![self.managedObjectContext save:&error]) {
+            //NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+            abort();
+        } 
+    }
 }
 
-- (void)applicationDidEnterBackground:(UIApplication *)application
-{
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
-}
-
-- (void)applicationWillEnterForeground:(UIApplication *)application
-{
-    // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
-}
-
-- (void)applicationDidBecomeActive:(UIApplication *)application
-{
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-}
-
-- (void)applicationWillTerminate:(UIApplication *)application
-{
-    
-
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-}
-
-#pragma mark - Core Data
+#pragma mark - Core Data stack
 - (NSManagedObjectModel *)managedObjectModel {
     if (_managedObjectModel == nil) {
         NSString *modelPath = [[NSBundle mainBundle] pathForResource:@"TaxonModel" ofType:@"momd"];
@@ -71,7 +95,7 @@
 - (NSString *)documentsDirectory {
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString *documentsDirectory = [paths lastObject];
-    NSLog(@"document directory: %@", documentsDirectory);
+    //NSLog(@"document directory: %@", documentsDirectory);
     return documentsDirectory;
 }
 
@@ -80,24 +104,59 @@
     return [[self documentsDirectory] stringByAppendingPathComponent:@"DataStore.sqlite"];
 }
 
+/**
+ Returns the persistent store coordinator for the application.
+ If the coordinator doesn't already exist, it is created and the application's store added to it.
+ */
+
 - (NSPersistentStoreCoordinator *)persistentStoreCoordinator
 {
+    if (_persistentStoreCoordinator != nil) {
+        return _persistentStoreCoordinator;
+    }
+    
     if (_persistentStoreCoordinator == nil) {
-        NSURL *storeUrl = [NSURL fileURLWithPath:[self dataStorePath]];
         
+        //if the expected store doesn't exist, copy the default store from main bundle
+       if (![[NSFileManager defaultManager] fileExistsAtPath:[self dataStorePath]]) {
+            NSString *defaultStorePath = [[NSBundle mainBundle] pathForResource:@"DataStore" ofType:@"sqlite"];
+            if (defaultStorePath) {
+                [[NSFileManager defaultManager] copyItemAtPath:defaultStorePath toPath:[self dataStorePath] error:NULL];
+            }
+       }
+        
+        NSURL *storeUrl = [NSURL fileURLWithPath:[self dataStorePath]];
+
         _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:self.managedObjectModel];
         
         NSError *error;
+        //NSDictionary *options = @{NSSQLitePragmasOption:@{@"journal_mode":@"DELETE"}};
         if (![_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType
                                                        configuration:nil
                                                                  URL:storeUrl
                                                              options:nil
                                                                error:&error]) {
-            NSLog(@"Error adding persistent store %@, %@", error, [error userInfo]);
+            //NSLog(@"Error adding persistent store %@, %@", error, [error userInfo]);
             abort();
         }
     }
+    [self addSkipBackupAttributeToItemAtPath:[self dataStorePath]];
     return _persistentStoreCoordinator;
+}
+
+- (BOOL)addSkipBackupAttributeToItemAtPath:(NSString *) filePathString
+{
+    NSURL* URL= [NSURL fileURLWithPath: filePathString];
+    assert([[NSFileManager defaultManager] fileExistsAtPath: [URL path]]);
+    
+    NSError *error = nil;
+    BOOL success = [URL setResourceValue: [NSNumber numberWithBool: YES]
+                                  forKey: NSURLIsExcludedFromBackupKey error: &error];
+    if(!success){
+      //  NSLog(@"Error excluding %@ from backup %@", [URL lastPathComponent], error);
+    }
+    //NSLog(@"Added %@",[NSNumber numberWithBool: success]);
+    return success;
 }
 
 - (NSManagedObjectContext *)managedObjectContext
@@ -117,28 +176,53 @@
     NSError *error;
     NSString *allBirds = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
     if (allBirds == nil) {
-         NSLog(@"Error reading file: %@",[error localizedDescription]);
+         //NSLog(@"Error reading file: %@",[error localizedDescription]);
     }
     NSArray *lines=[allBirds componentsSeparatedByString:@"\n"];
-    int count = [lines count];
+    unsigned long count = [lines count];
     NSArray *bird;
     for(int i=0;i<count;i++) {
         bird=[[lines objectAtIndex:i] componentsSeparatedByString:@"\t"];
         
         BirdInfo *info = [NSEntityDescription insertNewObjectForEntityForName:@"BirdInfo"
                                                        inManagedObjectContext:self.managedObjectContext];
-      
+        
+        BirdImage *imageObj = [NSEntityDescription insertNewObjectForEntityForName:@"BirdImage"
+                                                         inManagedObjectContext:self.managedObjectContext];
+        
+        UIImage *tempImage = [UIImage imageNamed:@"Placeholder"];
+        imageObj.image = UIImageJPEGRepresentation(tempImage,1);
+        
         info.category = [bird objectAtIndex:0];
         info.com_name = [bird objectAtIndex:1];
         info.sci_name = [bird objectAtIndex:2];
         //info.taxon_id = [bird objectAtIndex:2];
+       info.thumbnailImage = imageObj;
         
         NSError *error;
         if (![self.managedObjectContext save:&error]) {
-            NSLog(@"Error: %@", error);
+            //NSLog(@"Error: %@", error);
             abort();
         }
     }
+}
+
+- (void)preLoadSpecies
+{
+    NSManagedObjectContext *privateContext = [[NSManagedObjectContext alloc] initWithConcurrencyType:NSPrivateQueueConcurrencyType];
+    privateContext.persistentStoreCoordinator = self.managedObjectContext.persistentStoreCoordinator;
+    NSEntityDescription *entity = [NSEntityDescription insertNewObjectForEntityForName:@"BirdInfo"
+                                                   inManagedObjectContext:self.managedObjectContext];
+    NSFetchRequest *allSpeciesRequest = [[NSFetchRequest alloc] init];
+    [allSpeciesRequest setEntity:entity];
+    [privateContext performBlock:^{
+        NSError *error;
+        self.fetchedObjects = [privateContext executeFetchRequest:allSpeciesRequest error:&error];
+        if (error) {
+            //NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+            abort();
+        }
+    }];
 }
 
 @end

@@ -25,14 +25,14 @@
     {
         size = @"m";
     }
-    return [NSString stringWithFormat:@"http://farm%d.staticflickr.com/%d/%lld_%@_%@.jpg",flickrPhoto.farm,flickrPhoto.server,flickrPhoto.photoID,flickrPhoto.secret,size];
+    return [NSString stringWithFormat:@"http://farm%ld.staticflickr.com/%ld/%lld_%@_%@.jpg",(long)flickrPhoto.farm,(long)flickrPhoto.server,flickrPhoto.photoID,flickrPhoto.secret,size];
 }
 
 - (void)searchFlickrForTerm:(NSString *) term completionBlock:(FlickrSearchCompletionBlock) completionBlock
 {
     NSString *searchURL = [Flickr flickrSearchURLForSearchTerm:term];
     dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
-    
+
     dispatch_async(queue, ^{
         NSError *error = nil;
         NSString *searchResultString = [NSString stringWithContentsOfURL:[NSURL URLWithString:searchURL]

@@ -11,5 +11,11 @@
 
 @interface FlickrLargeViewController : UIViewController
 @property (nonatomic,strong) FlickrPhoto *flickrPhoto;
+@property (nonatomic, strong) UIImage *image;
+@property (nonatomic,weak) IBOutlet UIImageView *imageView;
+@property (nonatomic, weak) IBOutlet UILabel *linkLabel;
+@property (nonatomic, strong) NSString *flickrWebPageURL;
+@property (nonatomic, strong) NSString *ownerID;
+@property (nonatomic, strong) NSString *imageID;
 
 @end

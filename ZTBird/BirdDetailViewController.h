@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+@class BirdInfo;
+@class BirdImage;
 
-@interface BirdDetailViewController : UIViewController
-@property (nonatomic, weak) IBOutlet UILabel *nameLabel;
-@property (nonatomic, assign) NSString *birdName;
+@interface BirdDetailViewController : UITableViewController
+@property (nonatomic, copy) NSString *birdName;
+@property (nonatomic, copy) NSString *sciName;
+@property (nonatomic, weak) IBOutlet UITextView *textDescription;
+@property (nonatomic, strong) BirdInfo *birdInfo;
+@property (nonatomic, strong) BirdImage *birdImage;
+@property (nonatomic, strong) NSManagedObjectContext *managedOjbectContext;
+@property (nonatomic, strong) CLLocation *currentLocation;
 
 @end
