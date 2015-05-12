@@ -1,4 +1,4 @@
-# Bird-Finder - Birding &amp; hotspot guide
+# Bird-Finder - birding &amp; hotspot guide in North America
 
 Created for all levels of bird watchers, Bird Finder helps you find recent spotted birds and best birding hotspots near you, or in any city you select in North America.
 
